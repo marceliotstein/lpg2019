@@ -15,7 +15,22 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <link rel="stylesheet" href="/wp-content/themes/apostrophe-2-child/fonts/brandongrotesque_black_macroman/stylesheet.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/wp-content/themes/apostrophe-2-child/fonts/brandongrotesque_regular_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+    <?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
+    <script type="text/javascript">
+      jQuery(function(jQuery) {
+        jQuery("#testbutton").hover(function() {
+          jQuery(".lpg-contact-panel").show();
+        });
+        jQuery(".lpg-white-panel").hover(function() {
+          jQuery(".lpg-contact-panel").hide();
+        });
+        jQuery(".lpg-image-panel").hover(function() {
+          jQuery(".lpg-contact-panel").hide();
+        });
+      });
+      
+    </script>
   </head>
 
   <body <?php body_class(); ?>>
@@ -50,14 +65,17 @@
                 <div class="lpg-adept">
                   The Law Firm of Laurence P. Greenberg is adept in every aspect of matrimonial law &mdash;no matter how complex with victories at both the trial and appellate levels.
                 </div>  
-                <div class="lpg-button-box">
-                  <div class="lpg-button">
+                <div id="testbutton">
+                  <button class="sliderbutton lpg-button">
                     CONTACT US
-                  </div>  
+                  </button>
                   <div class="lpg-vertical-line">
                   </div>  
                 </div>  
               </div>  
+            </div>
+            <div class="lpg-contact-panel" style="display:none">
+              <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
             </div>
           </div>
 
