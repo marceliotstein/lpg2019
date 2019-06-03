@@ -12,6 +12,41 @@
  Text Domain:  apostrophe-2-child
 */
 
+.site-branding .lpg-contact-box {
+  text-align: left;
+}
+
+.lpg-contact {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: .9em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+label {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: .9em;
+  letter-spacing: 1px;
+  color: black;
+}
+  
+.lpg-contact-panel {
+  padding: 20px;
+  background-color: #eee;
+}
+
+.lpg-contact-box {
+  background-color: #eee;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  padding: 20px;
+}
+
+input[type="submit"] {
+  border-radius: 36px;
+  border: 2px solid black;
+  color: black;
+}
+
 .sliderbutton {
   padding: 8px 16px;
   border-radius: 4px;

@@ -75,7 +75,12 @@
               </div>  
             </div>
             <div class="lpg-contact-panel" style="display:none">
-              <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
+              <div class="lpg-contact">
+                Contact Us
+              </div>
+              <div class="lpg-contact-box">
+                <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
+              </div>
             </div>
           </div>
 
