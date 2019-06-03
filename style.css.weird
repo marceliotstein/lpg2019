@@ -1,0 +1,436 @@
+/*
+ Theme Name:   Apostrophe 2 Child
+ Theme URI:    https://wordpress.org/themes/apostrophe-2/
+ Description:  LPG Divorce Project theme based on Apostrophe 2
+ Author:       Marc Eliot Stein
+ Author URI:   http://marceliotstein.com
+ Template:     apostrophe-2
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         two-columns, left-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  apostrophe-2-child
+*/
+
+/*
+.main-navigation {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  margin-left: 60%;
+  float: right;
+  width: 40%;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.main-navigation a {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+}
+
+.main-navigation a:hover {
+  color: white;
+}
+
+.menu-item {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: white;
+}
+
+.menu-item a {
+  color: black;
+}
+
+.main-navigation.toggled-on {
+  margin-bottom: 65px;
+  background-color: #dde;
+  color: black;
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
+
+.main-navigation li {
+  padding: 10px 0px 10px 0px;
+}
+
+*/
+
+.entry-content {
+  margin: 0 0 0 0;
+}
+
+.lpg-white-panel {
+  background-color: #fff;
+  display: table;
+  vertical-align: middle;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #746b66;
+  text-align: center;
+  padding: 80px 40px 80px 40px;
+  margin: 0 auto;
+}
+
+.lpg-vertical-line {
+  border-left: 2px solid #fff;
+  height: 35px;
+  margin-left: 75px;
+}
+
+.lpg-image-panel {
+  text-align: center;
+  font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
+  font-size: 1.1em;
+  letter-spacing: .09em;
+  line-height: 1em;
+  padding: 140px 40px 140px 40px;
+}
+
+.lpg-experienced {
+  background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/lpg-columns.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  color: #2452a0;
+}
+
+.lpg-bronze {
+  background: url('/wp-content/themes/apostrophe-2-child/images/lpg-statue.jpg') center center;
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.lpg-team {
+  background: url('/wp-content/themes/apostrophe-2-child/images/lpg-table-gavel.jpg') center center;
+  background-size: 120%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.lpg-handshake {
+  background: url('/wp-content/themes/apostrophe-2-child/images/lpg-handshake.jpg') center center;
+  background-size: 120%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.lpg-footer-panel {
+  position: relative;
+  width: 100%;
+}
+
+.lpg-footer-img {
+  width: 100%;
+}
+
+.lpg-footer-copyright {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: .7em;
+  color: #ddd;
+}
+
+#primary {
+  width: 100%;
+}
+
+@keyframes animatedBackground {
+  from { background-size: 115%; }
+  to { background-size: 100%; }
+}
+
+@-webkit-keyframes animatedBackground {
+  from { background-size: 115%; }
+  to { background-size: 100%; }
+}
+  
+.lpg-empire-panel {
+  background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/empireblue600.jpg');
+  background-size: 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  -webkit-animation: animatedBackground;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  animation: animatedBackground;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+.lpg-maintitles {
+  color: #fff;
+  margin: 0 auto;
+  padding: 160px 0px 30px 0px;
+  position: relative;
+}
+
+.lpg-title {
+  font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  padding: 0px;
+  letter-spacing: .1em;
+  line-height: 1.3em;
+  text-shadow: 1px 1px #000;
+}
+
+.lpg-title-of {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+}
+
+.lpg-button-box {
+  width: 150px;
+  position: absolute;
+  bottom: 0; 
+  left: 50%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: -75px;
+}
+
+.lpg-button {
+  border-style: solid;
+  border-color: #fff;
+  border-width: 2px;
+  padding: 5px 0px;
+  margin: 0 auto;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: .5em;
+  width: 100px;
+}
+
+.lpg-bar {
+  width: 30%;
+  color: #fff;
+  height: 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #000;
+  text-shadow: 1px 1px #000;
+}
+
+.lpg-personally {
+  font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
+  font-size: .9em;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 140px 0px 8px 0px;
+}
+
+.lpg-adept {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: .9em;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 0px 48px 48px 48px;
+}
+
+@media (min-width: 768px) {
+  .lpg-title {
+    font-size: 1.6em;
+  }
+
+  .lpg-personally {
+    font-size: 1.2em;
+    padding: 210px 0px 20px 0px;
+  }
+
+  .lpg-adept {
+    font-size: 1.6em;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 75px 130px 75px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lpg-maintitles {
+    padding: 250px 0px 30px 0px;
+  }
+
+  .lpg-empire-panel {
+    background: url('/wp-content/themes/apostrophe-2-child/images/empireblue1920.jpg') center center;
+  }
+
+  .lpg-white-panel {
+    padding: 175px 0px 175px 0px;
+  }
+
+  .lpg-title {
+    font-size: 1.4em;
+  }
+
+  .lpg-adept {
+    padding: 20px 20px 130px 20px;
+  }
+}
+
+table,
+table td {
+  margin: 0 0 0 0;
+  border: none;
+}
+
+.yellowbox {
+  border-width: 2px;
+  border-color: yellow;
+  border-style: solid;
+}
+
+.header-table {
+  margin: 0;
+  padding: 0;
+  transform: translateY(-65px);
+}
+
+.header-table-left,
+.header-table-right {
+  width: 40%;
+  padding: 9px 0px 0px 9px;
+}
+
+.header-table-center {
+  vertical-align: top;
+  width: 10%;
+}
+
+.lpg-logo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-align: left;
+}
+
+.lpg-logo-img {
+  width: 36%;
+}
+
+#masthead {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.site-branding {
+  padding: 0em;
+}
+
+#page {
+  padding: 0px;
+  max-width: 5000px;
+}
+
+@media (max-width: 6000px) {
+	/* Show menu toggle and hide menu by default */
+	.menu-toggle,
+	.main-navigation.toggled-on .nav-menu,
+	.main-navigation.toggled-on ul.toggled-on {
+		display: block;
+	}
+
+	.main-navigation ul,
+	.jetpack-social-navigation {
+		display: none;
+	}
+
+	/* Condensed mobile menu */
+	div.apostrophe-2-navigation ul,
+	ul.apostrophe-2-navigation {
+		display: none;
+	}
+
+	.main-navigation .menu-toggle {
+		cursor: pointer;
+		display: block;
+		height: 60px;
+		line-height: 52px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.main-navigation .menu-toggle:before {
+		content: "\f419";
+		display: inline-block;
+		font-family: Genericons;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 52px;
+		padding-right: 10px;
+		vertical-align: top;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	.main-navigation.toggled-on .current_page_item a,
+	.main-navigation.toggled-on .current-menu-item a,
+	.main-navigation.toggled-on .current-post-ancestor a,
+	.main-navigation.toggled-on .current-menu-ancestor a,
+	.main-navigation.toggled-on .current-menu-parent a,
+	.main-navigation.toggled-on .current-post-parent a {
+		border-top-color: transparent;
+	}
+
+	.main-navigation.toggled-on .apostrophe-2-navigation,
+	.main-navigation.toggled-on .apostrophe-2-navigation > ul {
+		border-bottom: solid 1px;
+		display: block;
+	}
+
+	.main-navigation.toggled-on .apostrophe-2-navigation li {
+		clear: left;
+		display: block;
+		float: none;
+		position: relative;
+	}
+
+	.main-navigation.toggled-on .apostrophe-2-navigation li a {
+		margin-top: 0;
+		padding: 10px 25px 15px;
+	}
+
+	.main-navigation.toggled-on .apostrophe-2-navigation .toggled-on:not(.dropdown-toggle) {
+		border-bottom: 1px solid;
+		border-top: 2px solid;
+	}
+
+	.main-navigation.toggled-on .apostrophe-2-navigation .toggled-on > .sub-menu {
+		display: block;
+	}
+
+	.main-navigation ul li.menu-item-has-children > a:after {
+		display: none;
+	}
+
+	.main-navigation.toggled-on .apostrophe-2-navigation li.menu-item-has-children a {
+		padding-right: 60px;
+	}
+
+	.jetpack-social-navigation ul {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.jetpack-social-navigation ul li a {
+		line-height: 60px;
+	}
+
+	.apostrophe-2-navigation .dropdown-toggle {
+		display: block;
+	}
+
+}

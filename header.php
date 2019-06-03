@@ -1,0 +1,67 @@
+<?php
+	/**
+ * @package Apostrophe
+ *
+ * The Header for our theme.
+ *
+ * Displays all of the <head> section and everything up till <div id="content">
+ */
+?><!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+  <head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <link rel="stylesheet" href="/wp-content/themes/apostrophe-2-child/fonts/brandongrotesque_black_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/wp-content/themes/apostrophe-2-child/fonts/brandongrotesque_regular_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+    <?php wp_head(); ?>
+  </head>
+
+  <body <?php body_class(); ?>>
+    <div id="page" class="hfeed site">
+      <header id="masthead" class="site-header" role="banner">
+	<div class="site-branding">
+          <div class="lpg-empire-panel">
+            <div class="burger">
+                  <div class="lpg-logo">
+                    <img class="lpg-logo-img" alt="LPG Logo" src="/wp-content/themes/apostrophe-2-child/images/lpg-logo-trim.png" />
+                  </div>
+	  	  <nav id="site-navigation" class="main-navigation" role="navigation">
+			<a class="menu-toggle"><?php esc_html_e( '', 'apostrophe-2' ); ?></a>
+			<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'apostrophe-2' ); ?></a>
+
+			<?php wp_nav_menu( array(
+				'theme_location' => 'menu-1',
+				'menu_class'     => 'apostrophe-2-navigation',
+			) ); ?>
+
+			<?php //apostrophe_2_social_menu(); ?>
+		  </nav>
+            </div>
+            <div class="lpg-maintitles">
+                <div class="lpg-title">
+                  THE LAW FIRM <span class="lpg-title-of">of</span><br />LAURENCE P. GREENBERG
+                </div>
+                <hr class="lpg-bar" />
+                <div class="lpg-personally">
+                  WE TAKE YOUR CASE PERSONALLY
+                </div>
+                <div class="lpg-adept">
+                  The Law Firm of Laurence P. Greenberg is adept in every aspect of matrimonial law &mdash;no matter how complex with victories at both the trial and appellate levels.
+                </div>  
+                <div class="lpg-button-box">
+                  <div class="lpg-button">
+                    CONTACT US
+                  </div>  
+                  <div class="lpg-vertical-line">
+                  </div>  
+                </div>  
+              </div>  
+            </div>
+          </div>
+
+	</nav><!-- #site-navigation -->
+      </header><!-- #masthead -->
+
+      <div id="content" class="site-content">
