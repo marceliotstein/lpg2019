@@ -12,13 +12,24 @@
  Text Domain:  apostrophe-2-child
 */
 
+div.wpcf7-response-output, 
+div.wpcf7-validation-errors, 
+div.wpcf7-acceptance-missing {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  border: 2px solid black;
+}
+
+.lpg-close-contact-button {
+  background: rgba(255,255,255,0);
+}
+
 .site-branding .lpg-contact-box {
   text-align: left;
 }
 
 .lpg-contact {
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: .9em;
+  font-size: 1.2em;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -35,10 +46,8 @@ label {
   background-color: #eee;
 }
 
-.lpg-contact-box {
-  background-color: #eee;
-  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  padding: 20px;
+.lpg-contact-button-box {
+  text-align: center;
 }
 
 input[type="submit"] {
@@ -47,41 +56,8 @@ input[type="submit"] {
   color: black;
 }
 
-.sliderbutton {
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  border: 2px solid orangeRed;
-  background: linear-gradient(45deg, #fff 50%, orangeRed 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: relative;
-  color: #fff; /*For IE*/
-}
-
-.sliderbutton:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(45deg, orangeRed 50%, transparent 50%);
-  z-index: -1;
-}
-
-.sliderbutton,
-.sliderbutton:after {
-  background-size: 300%;
-  background-position: 100%;
-  transition: 1s, font-size 0.2s;
-}
-
-.sliderbutton:hover,
-.sliderbutton:hover:after {
-  background-position: 0;
-  font-size: 1.1em;
-  color: orangeRed; /*For IE*/
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, .button:focus, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active, .button:active {
+  background-color: transparent;
 }
 
 .burger {
@@ -181,7 +157,7 @@ input[type="submit"] {
 
 .lpg-bronze {
   background: url('/wp-content/themes/apostrophe-2-child/images/lpg-statue.jpg') center center;
-  background-size: 100%;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
@@ -189,7 +165,7 @@ input[type="submit"] {
 
 .lpg-team {
   background: url('/wp-content/themes/apostrophe-2-child/images/lpg-table-gavel.jpg') center center;
-  background-size: 136%;
+  background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
   color: #fff;
@@ -197,7 +173,7 @@ input[type="submit"] {
 
 .lpg-handshake {
   background: url('/wp-content/themes/apostrophe-2-child/images/lpg-handshake.jpg') center center;
-  background-size: 190%;
+  background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
@@ -275,8 +251,11 @@ input[type="submit"] {
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
 }
 
-.lpg-button-box {
-  width: 150px;
+button {
+  background: rgba(255,255,255,0);
+}
+
+.lpg-contact-button-box {
   position: absolute;
   bottom: 0; 
   left: 50%;
@@ -286,15 +265,16 @@ input[type="submit"] {
   margin-left: -75px;
 }
 
-.lpg-button {
+.lpg-contact-button {
+  width: 150px;
+  color: #fff;
   border-style: solid;
   border-color: #fff;
   border-width: 2px;
-  padding: 5px 0px;
+  padding: 10px 5px;
   margin: 0 auto;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: .5em;
-  width: 100px;
+  font-size: .7em;
 }
 
 .lpg-bar {

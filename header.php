@@ -19,13 +19,10 @@
     <?php wp_head(); ?>
     <script type="text/javascript">
       jQuery(function(jQuery) {
-        jQuery("#testbutton").hover(function() {
+        jQuery(".lpg-contact-button").hover(function() {
           jQuery(".lpg-contact-panel").show();
         });
-        jQuery(".lpg-white-panel").hover(function() {
-          jQuery(".lpg-contact-panel").hide();
-        });
-        jQuery(".lpg-image-panel").hover(function() {
+        jQuery(".lpg-close-contact-button").click(function() {
           jQuery(".lpg-contact-panel").hide();
         });
       });
@@ -65,8 +62,8 @@
                 <div class="lpg-adept">
                   The Law Firm of Laurence P. Greenberg is adept in every aspect of matrimonial law &mdash;no matter how complex with victories at both the trial and appellate levels.
                 </div>  
-                <div id="testbutton">
-                  <button class="sliderbutton lpg-button">
+                <div class="lpg-contact-button-box">
+                  <button class="lpg-contact-button">
                     CONTACT US
                   </button>
                   <div class="lpg-vertical-line">
@@ -77,6 +74,9 @@
             <div class="lpg-contact-panel" style="display:none">
               <div class="lpg-contact">
                 Contact Us
+                <button class="lpg-close-contact-button">
+                  X
+                </button>
               </div>
               <div class="lpg-contact-box">
                 <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
