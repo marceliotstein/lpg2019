@@ -27,6 +27,10 @@ div.wpcf7-acceptance-missing {
   text-align: left;
 }
 
+.lpg-begin-box {
+  text-align: left;
+}
+
 .lpg-contact {
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: 1.2em;
@@ -173,7 +177,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 .lpg-handshake {
   background: url('/wp-content/themes/apostrophe-2-child/images/lpg-handshake.jpg') center center;
-  background-size: 100%;
+  background-size: 125%;
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
@@ -277,6 +281,16 @@ button {
   font-size: .7em;
 }
 
+.lpg-begin-button {
+  background-color: #2452a0;
+  width: 150px;
+  color: #fff;
+  padding: 10px 5px 10px 5px;
+  margin: 20px auto 0 auto;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: .5em;
+}
+
 .lpg-bar {
   width: 30%;
   color: #fff;
@@ -288,19 +302,20 @@ button {
 
 .lpg-personally {
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
-  font-size: .9em;
+  font-size: 1em;
   letter-spacing: 1px;
   text-align: center;
   padding: 120px 0px 8px 0px;
 }
 
+
 .lpg-adept {
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: .9em;
+  font-size: 1em;
   line-height: 1.3em;
   letter-spacing: 1px;
   text-align: center;
-  padding: 0px 48px 48px 48px;
+  padding: 0px 40px 62px 40px;
 }
 
 @media (min-width: 768px) {

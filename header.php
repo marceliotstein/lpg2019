@@ -1,5 +1,5 @@
 <?php
-	/**
+/**
  * @package Apostrophe
  *
  * The Header for our theme.
@@ -24,6 +24,12 @@
         });
         jQuery(".lpg-close-contact-button").click(function() {
           jQuery(".lpg-contact-panel").hide();
+        });
+        jQuery(".lpg-begin-button").hover(function() {
+          jQuery(".lpg-begin-panel").show();
+        });
+        jQuery(".lpg-close-begin-button").click(function() {
+          jQuery(".lpg-begin-panel").hide();
         });
       });
       

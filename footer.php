@@ -6,7 +6,16 @@
  *
  * Contains the closing of the #content div and all content after
  */
-?>
+?>	
+    <div class="lpg-begin-panel" style="display:none">
+      <div class="lpg-begin">
+        Let's Begin
+        <button class="lpg-close-begin-button">X</button>
+      </div>
+      <div class="lpg-begin-box">
+        <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
+      </div>
+    </div>
   </div><!-- #content -->
 <?php wp_footer(); ?>
 <div class="lpg-footer-panel">
