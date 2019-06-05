@@ -27,6 +27,13 @@ div.wpcf7-acceptance-missing {
   text-align: left;
 }
 
+.lpg-begin {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
 .lpg-begin-box {
   text-align: left;
 }
@@ -126,6 +133,19 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin: 0 auto;
 }
 
+.lpg-last-white-panel {
+  background-color: #fff;
+  display: table;
+  vertical-align: middle;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #746b66;
+  text-align: center;
+  padding: 80px 40px 20px 40px;
+  margin: 0 auto;
+}
+
 .lpg-vertical-line {
   border-left: 2px solid #fff;
   height: 35px;
@@ -176,6 +196,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-handshake {
+  transform: translateY(60px);
   background: url('/wp-content/themes/apostrophe-2-child/images/lpg-handshake.jpg') center center;
   background-size: 125%;
   background-position: center center;
@@ -236,7 +257,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 .lpg-maintitles {
   color: #fff;
   margin: 0 auto;
-  padding: 80px 0px 30px 0px;
+  padding: 68px 0px 30px 0px;
   position: relative;
 }
 
@@ -281,6 +302,17 @@ button {
   font-size: .7em;
 }
 
+.lpg-begin-panel {
+  padding: 20px;
+  background-color: #eee;
+  transform: translateY(-60px);
+}
+
+.lpg-begin-button-box { 
+  text-align: center;
+  transform: translateY(-80px);
+}
+
 .lpg-begin-button {
   background-color: #2452a0;
   width: 150px;
@@ -288,7 +320,7 @@ button {
   padding: 10px 5px 10px 5px;
   margin: 20px auto 0 auto;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: .5em;
+  font-size: .7em;
 }
 
 .lpg-bar {
@@ -336,7 +368,8 @@ button {
   }
 }
 
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {*/
+@media (min-width: 1124px) {
   .lpg-maintitles {
     padding: 250px 0px 30px 0px;
   }
@@ -347,6 +380,10 @@ button {
 
   .lpg-white-panel {
     padding: 175px 0px 175px 0px;
+  }
+
+  .lpg-last-white-panel {
+    padding: 175px 0px 115px 0px;
   }
 
   .lpg-title {

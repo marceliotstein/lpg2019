@@ -7,6 +7,9 @@
  * Contains the closing of the #content div and all content after
  */
 ?>	
+    <div class="lpg-begin-button-box">
+      <button class="lpg-begin-button">LET'S BEGIN</button>
+    </div>
     <div class="lpg-begin-panel" style="display:none">
       <div class="lpg-begin">
         Let's Begin
