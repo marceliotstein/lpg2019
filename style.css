@@ -125,7 +125,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   display: table;
   vertical-align: middle;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.0em;
   line-height: 1.2em;
   color: #746b66;
   text-align: center;
@@ -138,7 +138,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   display: table;
   vertical-align: middle;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.0em;
   line-height: 1.2em;
   color: #746b66;
   text-align: center;
@@ -155,10 +155,10 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 .lpg-image-panel {
   text-align: center;
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
-  font-size: 1.1em;
+  font-size: .9em;
   letter-spacing: .09em;
   line-height: 1em;
-  padding: 140px 40px 140px 40px;
+  padding: 120px 20px 120px 20px;
 }
 
 .lpg-image-panel-lower {
@@ -167,7 +167,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #fff;
   text-align: center;
-  padding: 10px 40px 0px 40px;
+  padding: 30px 0px 20px 0px;
   margin: 0 auto;
 }
 
@@ -317,6 +317,9 @@ button {
   background-color: #2452a0;
   width: 150px;
   color: #fff;
+  border-style: solid;
+  border-color: #2452a0;
+  border-width: 2px;
   padding: 10px 5px 10px 5px;
   margin: 20px auto 0 auto;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
@@ -339,7 +342,6 @@ button {
   text-align: center;
   padding: 120px 0px 8px 0px;
 }
-
 
 .lpg-adept {
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
@@ -368,8 +370,7 @@ button {
   }
 }
 
-/*@media (min-width: 1024px) {*/
-@media (min-width: 1124px) {
+@media (min-width: 1024px) {
   .lpg-maintitles {
     padding: 250px 0px 30px 0px;
   }
