@@ -155,7 +155,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 .lpg-image-panel {
   text-align: center;
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
-  font-size: .9em;
+  font-size: 1em;
   letter-spacing: .09em;
   line-height: 1em;
   padding: 120px 20px 120px 20px;
@@ -163,7 +163,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 .lpg-image-panel-lower {
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.0em;
   line-height: 1.2em;
   color: #fff;
   text-align: center;
@@ -215,7 +215,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 .lpg-footer-copyright {
   position: absolute;
-  bottom: 15px;
+  bottom: 12px;
   left: 15px;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-weight: 400;
@@ -350,50 +350,6 @@ button {
   letter-spacing: 1px;
   text-align: center;
   padding: 0px 40px 62px 40px;
-}
-
-@media (min-width: 768px) {
-  .lpg-title {
-    font-size: 1.6em;
-  }
-
-  .lpg-personally {
-    font-size: 1.2em;
-    padding: 210px 0px 20px 0px;
-  }
-
-  .lpg-adept {
-    font-size: 1.6em;
-    font-weight: 300;
-    text-align: center;
-    padding: 20px 75px 130px 75px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lpg-maintitles {
-    padding: 250px 0px 30px 0px;
-  }
-
-  .lpg-empire-panel {
-    background: url('/wp-content/themes/apostrophe-2-child/images/empireblue1920.jpg') center center;
-  }
-
-  .lpg-white-panel {
-    padding: 175px 0px 175px 0px;
-  }
-
-  .lpg-last-white-panel {
-    padding: 175px 0px 115px 0px;
-  }
-
-  .lpg-title {
-    font-size: 1.4em;
-  }
-
-  .lpg-adept {
-    padding: 20px 20px 130px 20px;
-  }
 }
 
 table,
@@ -554,5 +510,120 @@ table td {
 	.apostrophe-2-navigation .dropdown-toggle {
 		display: block;
 	}
+}
 
+@media (min-width: 768px) {
+  .lpg-empire-panel {
+    background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/empireblue1920.jpg') top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-animation: animatedBackground;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    animation: animatedBackground;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+
+  .lpg-logo-img {
+    width: 50%;
+  }
+
+  .main-navigation .menu-toggle:before {
+    font-size: 1.7em;
+  }
+
+  .lpg-title {
+    font-size: 1.6em;
+  }
+
+  .lpg-personally {
+    font-size: 1.3em;
+    padding: 70px 0px 20px 0px;
+  }
+
+  .lpg-adept {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 75px 130px 75px;
+  }
+
+  .lpg-white-panel,
+  .lpg-last-white-panel {
+    font-size: 1.4em;
+    padding: 200px 40px 200px 40px;
+  }
+
+  .lpg-image-panel {
+    font-size: 1.2em;
+    padding: 200px 40px 200px 40px;
+  }
+
+  .lpg-team {
+    background: url('/wp-content/themes/apostrophe-2-child/images/lpg-table-gavel-wide.jpg') center center;
+  }
+
+  .lpg-handshake {
+    background: url('/wp-content/themes/apostrophe-2-child/images/lpg-handshake-wide.jpg') center center;
+  }
+ 
+  .lpg-footer-copyright {
+    bottom: 18px;
+    font-size: .9em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lpg-empire-panel {
+    background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/empireblue1920.jpg') top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-animation: animatedBackground;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    animation: animatedBackground;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+
+  .lpg-maintitles {
+    padding: 250px 0px 30px 0px;
+  }
+
+  .lpg-white-panel {
+    font-size: 2em;
+    padding: 250px 40px 250px 40px;
+  }
+
+  .lpg-last-white-panel {
+    font-size: 2em;
+    padding: 250px 40px 250px 40px;
+  }
+
+  .lpg-title {
+    font-size: 1.4em;
+  }
+
+  .lpg-adept {
+    padding: 20px 75px 130px 75px;
+  }
+
+  .lpg-image-panel {
+    padding: 250px 40px 250px 40px;
+    font-size: 1.4em;
+  }
+
+  .lpg-footer-copyright {
+    bottom: 21px;
+    font-size: 1.1em;
+  }
 }
