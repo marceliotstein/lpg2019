@@ -20,41 +20,46 @@
       </div>
     </div>
   </div><!-- #content -->
-<?php wp_footer(); ?>
-<div class="lpg-footer-panel">
-  <div class="lpg-footer-table-wrapper">
-    <table class="lpg-footer-table">
-      <tr class="lpg-footer-tr">
-        <td class="lpg-footer-td">
-          <img alt="mail" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-mail.png" />
-        </td>
-        <td class="lpg-footer-td">
-          <a href="mailto:info@lpgdivorce.com">info@lpgdivorce.com</a>
-        </td>
-      </tr>
-      <tr class="lpg-footer-tr">
-        <td class="lpg-footer-td">
-          <img alt="phone" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-phone.png" />
-        </td>
-        <td class="lpg-footer-td">
-           (212) 608 9000
-        </td>
-      </tr>
-      <tr class="lpg-footer-tr">
-        <td class="lpg-footer-td">
-          <img alt="fax" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-fax.png" />
-        </td>
-        <td class="lpg-footer-td">
-          (212) 732 6972
-        </td>
-      </tr>
-    </table>
+  <?php wp_footer(); ?>
+  <div class="lpg-footer-panel">
+    <div class="lpg-footer-logo">
+      <img class="lpg-footer-logo-img" alt="LPG Logo" src="/wp-content/themes/apostrophe-2-child/images/lpg-logo-trim.png" />
+    </div>
+    <div class="lpg-footer-address">
+      The Law Firm of Laurence P. Greenberg<br />
+      299 Broadway, New York, NY 10007
+    </div>
+    <div class="lpg-footer-table-wrapper">
+      <table class="lpg-footer-table">
+        <tr class="lpg-footer-tr">
+          <td class="lpg-footer-td-left">
+            <img alt="mail" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-mail.png" />
+          </td>
+          <td class="lpg-footer-td-right">
+            <a href="mailto:info@lpgdivorce.com">info@lpgdivorce.com</a>
+          </td>
+        </tr>
+        <tr class="lpg-footer-tr">
+          <td class="lpg-footer-td-left">
+            <img alt="phone" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-phone.png" />
+          </td>
+          <td class="lpg-footer-td-right">
+             (212) 608 9000
+          </td>
+        </tr>
+        <tr class="lpg-footer-tr">
+          <td class="lpg-footer-td-left">
+            <img alt="fax" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-fax.png" />
+          </td>
+          <td class="lpg-footer-td-right">
+            (212) 732 6972
+          </td>
+        </tr>
+      </table>
+    </div>
   </div>
-  <!--
   <div class="lpg-footer-copyright">
-    &copy; 2019 All Rights Reserved
+    &copy; Copyright 2019 All Rights Reserved
   </div>
-  -->
-</div>
 </body>
 </html>

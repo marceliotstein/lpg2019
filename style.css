@@ -350,13 +350,25 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin: 0 auto;
 }
 
-.lpg-footer-panel-wrapper {
-  width: 100%;
+.lpg-footer-table-wrapper {
+  padding: 0px 40px 0px 40px;
+}
+
+.lpg-footer-td-left {
+  width: 90px;
   text-align: center;
+  vertical-align: middle;
+}
+
+.lpg-footer-td-right {
+  width: 240px;  
+  text-align: left;
+  vertical-align: middle;
 }
 
 .lpg-footer-table, 
 .lpg-footer-table a {
+  width: 330px;
   margin: 0 auto;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: 1.0em;
@@ -365,11 +377,16 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-footer-panel {
-  background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/lpg-footer.png');
+  text-align: center;
+  background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/lpg-footer-plain.png');
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  padding: 120px 20px 120px 20px;
+  padding: 12px 20px 60px 20px;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.0em;
+  line-height: 1.2em;
+  color: #fff;
 }
 
 .lpg-experienced {
@@ -415,16 +432,21 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-footer-icon {
-  width: 79px;
+  width: 40px;
 }
 
 .lpg-footer-copyright {
-  position: absolute;
-  bottom: 12px;
-  left: 15px;
+  background: #ddd url('/wp-content/themes/apostrophe-2-child/images/lpg-footer-copybar.png');
+  background-size: 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: table;
+  vertical-align: middle;
+  padding: 5px;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-weight: 400;
-  font-size: .7em;
+  font-size: .5em;
   color: #ddd;
 }
 
@@ -593,6 +615,15 @@ table td {
   left: 10px;
   top: 10px;
   text-align: left;
+}
+
+.lpg-footer-logo,
+.lpg-footer-address {
+  padding-bottom: 15px;
+}
+
+.lpg-footer-logo-img {
+  width: 15%;
 }
 
 .lpg-logo-img {
@@ -773,7 +804,7 @@ table td {
 
   .lpg-footer-panel {
     font-size: 1.2em;
-    padding: 200px 40px 200px 40px;
+    padding: 20px 40px 100px 40px;
   }
 
   .lpg-team {
@@ -835,7 +866,7 @@ table td {
   }
 
   .lpg-footer-panel {
-    padding: 250px 40px 250px 40px;
+    padding: 25px 40px 120px 40px;
     font-size: 1.4em;
   }
 
