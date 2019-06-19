@@ -1,5 +1,5 @@
 <?php
-	/**
+/**
  * @package Apostrophe
  *
  * The template for displaying the footer.
