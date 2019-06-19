@@ -469,7 +469,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
   
 .lpg-empire-panel {
-  background: #ffffff url('/wp-content/themes/apostrophe-2-child/images/empireblue600.jpg');
+  background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/empireblue600.jpg');
   background-size: 100%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -773,6 +773,10 @@ table td {
     animation-direction: alternate;
   }
 
+  .lpg-footer-logo-img {
+    width: 24%;
+  }
+
   .lpg-logo-img {
     width: 50%;
   }
@@ -819,11 +823,6 @@ table td {
 
   .lpg-handshake {
     background: url('/wp-content/themes/apostrophe-2-child/images/lpg-handshake-wide.jpg') center center;
-  }
- 
-  .lpg-footer-copyright {
-    bottom: 18px;
-    font-size: .9em;
   }
 }
 
@@ -876,8 +875,7 @@ table td {
     font-size: 1.4em;
   }
 
-  .lpg-footer-copyright {
-    bottom: 21px;
-    font-size: 1.1em;
+  .lpg-footer-logo-img {
+    width: 30%;
   }
 }
