@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="/wp-content/themes/apostrophe-2-child/fonts/brandongrotesque_regular_macroman/stylesheet.css" type="text/css" charset="utf-8" />
     <?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
+    <script src="/wp-content/themes/apostrophe-2-child/js/wow.js"></script>>
+    <script>
+      new WOW().init();
+    </script>
     <script type="text/javascript">
       jQuery(function(jQuery) {
         jQuery(".lpg-contact-button").hover(function() {

@@ -12,6 +12,185 @@
  Text Domain:  apostrophe-2-child
 */
 
+@keyframes lpg-text-slide-left {
+  0% { padding-left: 80px; padding-right: 0px }
+  100% { padding-left: 40px; padding-right: 40px; }
+}
+
+@-webkit-keyframes lpg-text-slide-left {
+  0% { padding-left: 80px; padding-right: 0px }
+  100% { padding-left: 40px; padding-right: 40px; }
+}
+
+.lpg-sidestep {
+  -webkit-animation: lpg-text-slide-left;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: normal;   
+  animation: lpg-text-slide-left;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-direction: normal;   
+}
+
+@keyframes lpg-title-settle {
+  0% { font-size: 34px; letter-spacing: 6.0px; }
+  90% { font-size: 27px; letter-spacing: 2.7px; }
+  100% { font-size: 26.6px; letter-spacing: 2.66px; }
+}
+
+@-webkit-keyframes lpg-title-settle {
+  0% { font-size: 34px; letter-spacing: 6.0px; }
+  90% { font-size: 27px; letter-spacing: 2.7px; }
+  100% { font-size: 26.6px; letter-spacing: 2.66px; }
+}
+
+@keyframes lpg-text-white-settle {
+  0% { color: rgba(255,255,255,0); font-size: 34px; letter-spacing: 6.0px; }
+  100% { color: rgba(255,255,255,1); font-size: 26.6px; letter-spacing: 2.66px; } }
+
+@-webkit-keyframes lpg-text-white-settle {
+  0% { color: rgba(255,255,255,0); font-size: 34px; letter-spacing: 6.0px; }
+  100% { color: rgba(255,255,255,1); font-size: 26.6px; letter-spacing: 2.394px; }
+}
+
+@keyframes lpg-text-blue-settle {
+  0% { color: rgba(36,82,160,0); font-size: 34px; letter-spacing: 6.0px; }
+  100% { color: rgba(36,82,160,1); font-size: 26.6px; letter-spacing: 2.66px; } }
+
+@-webkit-keyframes lpg-text-blue-settle {
+  0% { color: rgba(36,82,160,0); font-size: 34px; letter-spacing: 6.0px; }
+  100% { color: rgba(36,82,160,1); font-size: 26.6px; letter-spacing: 2.394px; }
+}
+
+.lpg-title-effect-disabled {
+  -webkit-animation: lpg-title-settle;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: normal;   
+  animation: lpg-title-settle;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-direction: normal;   
+}
+
+.lpg-text-blue-effect-disabled {
+  -webkit-animation: lpg-text-blue-settle;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: normal;   
+  animation: lpg-text-blue-settle;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: normal;   
+}
+
+.lpg-text-white-effect-disabled {
+  -webkit-animation: lpg-text-white-settle;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: normal;   
+  animation: lpg-text-white-settle;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: normal;   
+}
+
+div.wpcf7-response-output, 
+div.wpcf7-validation-errors, 
+div.wpcf7-acceptance-missing {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  border: 2px solid black;
+}
+
+.lpg-close-contact-button {
+  background: rgba(255,255,255,0);
+}
+
+.site-branding .lpg-contact-box {
+  text-align: left;
+}
+
+.lpg-begin {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.lpg-begin-box {
+  text-align: left;
+}
+
+.lpg-contact {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+label {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: .9em;
+  letter-spacing: 1px;
+  color: black;
+}
+  
+.lpg-contact-panel {
+  padding: 20px;
+  background-color: #eee;
+}
+
+.lpg-contact-button-box {
+  text-align: center;
+}
+
+input[type="submit"] {
+  border-radius: 36px;
+  border: 2px solid black;
+  color: black;
+}
+
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, .button:focus, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active, .button:active {
+  background-color: transparent;
+}
+
+.burger {
+  height: 80px;
+}
+
+.main-navigation,
+.main-navigation a {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+}
+
+.main-navigation a:hover {
+  color: white;
+  from { font-size: 1.6em; letter-spacing: .11em; line-height: 1.1em; }
+  to { font-size: 1.4em; letter-spacing: .09em; line-height: 1em; }
+}
+
+.lpg-throb {
+  -webkit-animation: throbbingWords;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  animation: throbbingWords;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
 div.wpcf7-response-output, 
 div.wpcf7-validation-errors, 
 div.wpcf7-acceptance-missing {
@@ -171,6 +350,28 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin: 0 auto;
 }
 
+.lpg-footer-panel-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.lpg-footer-table, 
+.lpg-footer-table a {
+  margin: 0 auto;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.0em;
+  line-height: 1.2em;
+  color: #fff;
+}
+
+.lpg-footer-panel {
+  background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/lpg-footer.png');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 120px 20px 120px 20px;
+}
+
 .lpg-experienced {
   background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/lpg-columns.jpg');
   background-size: cover;
@@ -213,6 +414,10 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   width: 100%;
 }
 
+.lpg-footer-icon {
+  width: 79px;
+}
+
 .lpg-footer-copyright {
   position: absolute;
   bottom: 12px;
@@ -228,17 +433,19 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 @keyframes animatedBackground {
-  from { background-size: 115%; }
-  to { background-size: 100%; }
+  0% { background-size: 115%; }
+  90% { background-size: 101%; }
+  100% { background-size: 100%; }
 }
 
 @-webkit-keyframes animatedBackground {
-  from { background-size: 115%; }
-  to { background-size: 100%; }
+  0% { background-size: 115%; }
+  90% { background-size: 101%; }
+  100% { background-size: 100%; }
 }
   
 .lpg-empire-panel {
-  background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/empireblue600.jpg');
+  background: #ffffff url('/wp-content/themes/apostrophe-2-child/images/empireblue600.jpg');
   background-size: 100%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -263,11 +470,11 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 .lpg-title {
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
-  font-size: 1em;
+  font-size: 26.6px;
   font-weight: 300;
   text-align: center;
   padding: 0px;
-  letter-spacing: .1em;
+  letter-spacing: 2.66px;
   line-height: 1.3em;
   text-shadow: 1px 1px #000;
 }
@@ -564,6 +771,11 @@ table td {
     padding: 200px 40px 200px 40px;
   }
 
+  .lpg-footer-panel {
+    font-size: 1.2em;
+    padding: 200px 40px 200px 40px;
+  }
+
   .lpg-team {
     background: url('/wp-content/themes/apostrophe-2-child/images/lpg-table-gavel-wide.jpg') center center;
   }
@@ -618,6 +830,11 @@ table td {
   }
 
   .lpg-image-panel {
+    padding: 250px 40px 250px 40px;
+    font-size: 1.4em;
+  }
+
+  .lpg-footer-panel {
     padding: 250px 40px 250px 40px;
     font-size: 1.4em;
   }

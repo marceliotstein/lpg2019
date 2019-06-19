@@ -22,10 +22,39 @@
   </div><!-- #content -->
 <?php wp_footer(); ?>
 <div class="lpg-footer-panel">
-  <img class="lpg-footer-img" src="/wp-content/themes/apostrophe-2-child/images/lpg-footer.png" />
+  <div class="lpg-footer-table-wrapper">
+    <table class="lpg-footer-table">
+      <tr class="lpg-footer-tr">
+        <td class="lpg-footer-td">
+          <img alt="mail" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-mail.png" />
+        </td>
+        <td class="lpg-footer-td">
+          <a href="mailto:info@lpgdivorce.com">info@lpgdivorce.com</a>
+        </td>
+      </tr>
+      <tr class="lpg-footer-tr">
+        <td class="lpg-footer-td">
+          <img alt="phone" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-phone.png" />
+        </td>
+        <td class="lpg-footer-td">
+           (212) 608 9000
+        </td>
+      </tr>
+      <tr class="lpg-footer-tr">
+        <td class="lpg-footer-td">
+          <img alt="fax" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-fax.png" />
+        </td>
+        <td class="lpg-footer-td">
+          (212) 732 6972
+        </td>
+      </tr>
+    </table>
+  </div>
+  <!--
   <div class="lpg-footer-copyright">
     &copy; 2019 All Rights Reserved
   </div>
+  -->
 </div>
 </body>
 </html>
