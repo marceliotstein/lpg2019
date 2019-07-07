@@ -67,18 +67,18 @@
 	       </nav>
             </div>
             <?php if ($current_path=="about-lpg") { ?>
-              <div class="lpg-maintitles">
+              <div class="lpg-practicetitles">
                 <div class="lpg-title lpg-our-practice">
                   OUR PRACTICE
                 </div>
                 <div class="lpg-teal-panel wow lpg-upstep" data-wow-offset="10">
-                  <center><img src="/wp-content/themes/apostrophe-2-child/images/our-practice-line.png" /></center>
-                  A divorce is an extremely emotional<br /> and personal process.<br>Whether you are a public figure or not,<br />service and confidentiality are<br />at the core of our representation.
+                  <img src="/wp-content/themes/apostrophe-2-child/images/our-practice-line.png" />
+                  <p class="lpg-our-practice-text">A divorce is an extremely emotional<br /> and personal process.<br>Whether you are a public figure or not,<br />service and confidentiality are<br />at the core of our representation.</p>
                   <div class="lpg-contact-button-box">
                     <button class="lpg-contact-button">
                     CONTACT US
                     </button>
-                    <div class="lpg-vertical-line">
+                    <div class="lpg-vertical-line-placeholder">
                     </div>  
                   </div>  
                 </div>  
