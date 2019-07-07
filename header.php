@@ -39,6 +39,12 @@
       
     </script>
   </head>
+  
+  <?php 
+    global $wp;
+    $current_url = home_url(add_query_arg(array(), $wp->request));
+    $current_path = str_replace("http://lpgdemo.marceliotstein.net/","",$current_url);
+  ?>
 
   <body <?php body_class(); ?>>
     <div id="page" class="hfeed site">
@@ -46,23 +52,40 @@
 	<div class="site-branding">
           <div class="lpg-empire-panel">
             <div class="burger">
-                  <div class="lpg-logo">
-                    <img class="lpg-logo-img" alt="LPG Logo" src="/wp-content/themes/apostrophe-2-child/images/lpg-logo-trim.png" />
-                  </div>
-	  	  <nav id="site-navigation" class="main-navigation" role="navigation">
-			<a class="menu-toggle"><?php esc_html_e( '', 'apostrophe-2' ); ?></a>
-			<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'apostrophe-2' ); ?></a>
-
-			<?php wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_class'     => 'apostrophe-2-navigation',
-			) ); ?>
-
-			<?php //apostrophe_2_social_menu(); ?>
-		  </nav>
+              <div class="lpg-logo">
+                <img class="lpg-logo-img" alt="LPG Logo" src="/wp-content/themes/apostrophe-2-child/images/lpg-logo-trim.png" />
+              </div>
+	       <nav id="site-navigation" class="main-navigation" role="navigation">
+		 <a class="menu-toggle"><?php esc_html_e( '', 'apostrophe-2' ); ?></a>
+		 <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'apostrophe-2' ); ?></a>
+		 <?php wp_nav_menu( array(
+			'theme_location' => 'menu-1',
+			'menu_class'     => 'apostrophe-2-navigation',
+		       )); 
+                 ?>
+	 	 <?php //apostrophe_2_social_menu(); ?>
+	       </nav>
             </div>
-            <div class="lpg-maintitles">
-                <div class="lpg-title">
+            <?php if ($current_path=="about-lpg") { ?>
+              <div class="lpg-maintitles">
+                <div class="lpg-title lpg-our-practice">
+                  OUR PRACTICE
+                </div>
+                <div class="lpg-teal-panel wow lpg-upstep" data-wow-offset="10">
+                  <center><img src="/wp-content/themes/apostrophe-2-child/images/our-practice-line.png" /></center>
+                  A divorce is an extremely emotional<br /> and personal process.<br>Whether you are a public figure or not,<br />service and confidentiality are<br />at the core of our representation.
+                  <div class="lpg-contact-button-box">
+                    <button class="lpg-contact-button">
+                    CONTACT US
+                    </button>
+                    <div class="lpg-vertical-line">
+                    </div>  
+                  </div>  
+                </div>  
+              </div>  
+            <?php } else { ?>
+              <div class="lpg-maintitles">
+                <div class="lpg-title lpg-home-title">
                   THE LAW FIRM <span class="lpg-title-of">of</span><br />LAURENCE P. GREENBERG
                 </div>
                 <hr class="lpg-bar" />
@@ -80,21 +103,21 @@
                   </div>  
                 </div>  
               </div>  
+            <?php } ?>
+          </div>
+          <div class="lpg-contact-panel" style="display:none">
+            <div class="lpg-contact">
+              Contact Us
+              <button class="lpg-close-contact-button">
+                X
+              </button>
             </div>
-            <div class="lpg-contact-panel" style="display:none">
-              <div class="lpg-contact">
-                Contact Us
-                <button class="lpg-close-contact-button">
-                  X
-                </button>
-              </div>
-              <div class="lpg-contact-box">
-                <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
-              </div>
+            <div class="lpg-contact-box">
+              <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
             </div>
           </div>
+        </div>
 
-	</nav><!-- #site-navigation -->
       </header><!-- #masthead -->
 
       <div id="content" class="site-content">

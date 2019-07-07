@@ -12,6 +12,14 @@
  Text Domain:  apostrophe-2-child
 */
 
+.lpg-home-title {
+  padding: 0px 0px 0px 0px;
+}
+
+.lpg-our-practice {
+  padding: 0px 0px 20px 0px;
+}
+  
 .lpg-textbox {
   border-width: 2px;
   border-color: #3f84a5;
@@ -362,6 +370,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-teal-panel {
+  width: 100%;
   background-color: #3f84a5;
   display: table;
   vertical-align: middle;
@@ -370,11 +379,12 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #ffffff;
   text-align: center;
-  padding: 80px 40px 80px 40px;
+  padding: 0px 40px 80px 40px;
   margin: 0 auto;
 }
 
 .lpg-white-panel {
+  width: 100%;
   background-color: #fff;
   display: table;
   vertical-align: middle;
@@ -388,6 +398,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-last-white-panel {
+  width: 100%;
   background-color: #fff;
   display: table;
   vertical-align: middle;
@@ -508,6 +519,42 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   color: #fff;
 }
 
+.lpg-children {
+  transform: translateY(60px);
+  background: url('/wp-content/themes/apostrophe-2-child/images/children-standard.jpg') center center;
+  background-size: 125%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.lpg-brownstone {
+  transform: translateY(60px);
+  background: url('/wp-content/themes/apostrophe-2-child/images/branches-standard.jpg') center center;
+  background-size: 125%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.lpg-park {
+  transform: translateY(60px);
+  background: url('/wp-content/themes/apostrophe-2-child/images/park-standard.jpg') center center;
+  background-size: 125%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.lpg-signature {
+  transform: translateY(60px);
+  background: url('/wp-content/themes/apostrophe-2-child/images/signature-standard.jpg') center center;
+  background-size: 125%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
 .lpg-footer-panel {
   position: relative;
   width: 100%;
@@ -588,7 +635,6 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-size: 26.6px;
   font-weight: 300;
   text-align: center;
-  padding: 0px;
   letter-spacing: 2.66px;
   line-height: 1.3em;
   text-shadow: 1px 1px #000;
@@ -621,7 +667,7 @@ button {
   padding: 10px 5px;
   margin: 0 auto;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: .7em;
+  font-size: 19px;
 }
 
 .lpg-begin-panel {
@@ -892,7 +938,11 @@ table td {
     padding: 20px 75px 130px 75px;
   }
 
-  .lpg-teal-panel,
+  .lpg-teal-panel {
+    font-size: 1.4em;
+    padding: 120px 40px 200px 40px;
+  }
+
   .lpg-white-panel,
   .lpg-last-white-panel {
     font-size: 1.4em;
@@ -944,7 +994,11 @@ table td {
     padding: 250px 0px 30px 0px;
   }
 
-  .lpg-teal-panel,
+  .lpg-teal-panel {
+    font-size: 2em;
+    padding: 170px 40px 250px 40px;
+  }
+
   .lpg-white-panel {
     font-size: 2em;
     padding: 250px 40px 250px 40px;
