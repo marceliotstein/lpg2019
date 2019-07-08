@@ -53,7 +53,7 @@
           <div class="lpg-empire-panel">
             <div class="burger">
               <div class="lpg-logo">
-                <img class="lpg-logo-img" alt="LPG Logo" src="/wp-content/themes/apostrophe-2-child/images/lpg-logo-trim.png" />
+                <a href="/"><img class="lpg-logo-img" alt="LPG Logo" src="/wp-content/themes/apostrophe-2-child/images/lpg-logo-trim.png" /></a>
               </div>
 	       <nav id="site-navigation" class="main-navigation" role="navigation">
 		 <a class="menu-toggle"><?php esc_html_e( '', 'apostrophe-2' ); ?></a>

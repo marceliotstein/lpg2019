@@ -12,6 +12,16 @@
  Text Domain:  apostrophe-2-child
 */
 
+.lpg-box-star {
+  margin: 0 auto;
+  width: 60px;
+}
+
+.lpg-box-star img {
+  position: relative;
+  z-index: 1;
+}
+
 .lpg-home-title {
   padding: 0px 0px 0px 0px;
 }
@@ -24,11 +34,14 @@
   padding-bottom: 0px;
 }
   
-.lpg-textbox {
+.lpg-control-textbox {
+  position: relative;
+  transform: translateY(-30px);
   border-width: 2px;
   border-color: #3f84a5;
   border-style: solid;
   padding: 50px 20px 20px 20px;
+  z-index: .5;
 }
 
 @keyframes lpg-text-slide-left {
@@ -401,6 +414,20 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin: 0 auto;
 }
 
+.lpg-white-panel-left {
+  width: 100%;
+  background-color: #fff;
+  display: table;
+  vertical-align: middle;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.0em;
+  line-height: 1.2em;
+  color: #766a63;
+  text-align: left;
+  padding: 30px 40px 30px 40px;
+  margin: 0 auto;
+}
+
 .lpg-last-white-panel {
   width: 100%;
   background-color: #fff;
@@ -530,25 +557,23 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-children {
-  transform: translateY(60px);
-  background: url('/wp-content/themes/apostrophe-2-child/images/children-standard.jpg') center center;
-  background-size: 125%;
-  background-position: center center;
+  background: url('/wp-content/themes/apostrophe-2-child/images/children-narrow.jpg') center center;
+  background-size: 100%;
+  background-position: left center;
   background-repeat: no-repeat;
   color: #fff;
+  height: 336px;
 }
 
-.lpg-brownstone {
-  transform: translateY(60px);
+.lpg-stakes {
   background: url('/wp-content/themes/apostrophe-2-child/images/branches-standard.jpg') center center;
-  background-size: 125%;
+  background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #3f84a5;
 }
 
 .lpg-park {
-  transform: translateY(60px);
   background: url('/wp-content/themes/apostrophe-2-child/images/park-standard.jpg') center center;
   background-size: 125%;
   background-position: center center;
@@ -557,7 +582,6 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-signature {
-  transform: translateY(60px);
   background: url('/wp-content/themes/apostrophe-2-child/images/signature-standard.jpg') center center;
   background-size: 125%;
   background-position: center center;
