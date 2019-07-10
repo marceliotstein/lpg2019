@@ -44,6 +44,7 @@
     global $wp;
     $current_url = home_url(add_query_arg(array(), $wp->request));
     $current_path = str_replace("http://lpgdemo.marceliotstein.net/","",$current_url);
+    $current_path = str_replace("http://lpgdemo.marceliotstein.net","",$current_path);
   ?>
 
   <body <?php body_class(); ?>>
@@ -71,8 +72,8 @@
                 <div class="lpg-title lpg-our-practice">
                   OUR PRACTICE
                 </div>
-                <div class="lpg-teal-panel wow lpg-upstep" data-wow-offset="10">
-                  <img src="/wp-content/themes/apostrophe-2-child/images/our-practice-line.png" />
+                <div class="lpg-teal-panel" data-wow-offset="10">
+                  <img src="/wp-content/themes/apostrophe-2-child/images/lpg-ribbon.png" />
                   <p class="lpg-our-practice-text">A divorce is an extremely emotional<br /> and personal process.<br>Whether you are a public figure or not,<br />service and confidentiality are<br />at the core of our representation.</p>
                   <div class="lpg-contact-button-box">
                     <button class="lpg-contact-button">

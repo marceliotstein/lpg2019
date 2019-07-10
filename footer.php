@@ -7,6 +7,15 @@
  * Contains the closing of the #content div and all content after
  */
 ?>	
+  
+<?php 
+  global $wp;
+  $current_url = home_url(add_query_arg(array(), $wp->request));
+  $current_path = str_replace("http://lpgdemo.marceliotstein.net/","",$current_url);
+  $current_path = str_replace("http://lpgdemo.marceliotstein.net","",$current_path);
+?>
+
+<?php if ($current_path=="") { ?>
     <div class="lpg-begin-button-box">
       <button class="lpg-begin-button">LET'S BEGIN</button>
     </div>
@@ -19,6 +28,7 @@
         <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
       </div>
     </div>
+<?php } ?>
   </div><!-- #content -->
   <?php wp_footer(); ?>
   <div class="lpg-footer-panel">

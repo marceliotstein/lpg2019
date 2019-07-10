@@ -24,10 +24,14 @@
 
 .lpg-home-title {
   padding: 0px 0px 0px 0px;
+  font-size: 26.6px;
+  letter-spacing: 2.66px;
 }
 
 .lpg-our-practice {
   padding: 0px 0px 35px 0px;
+  font-size: 32px;
+  letter-spacing: 3.2px;
 }
 
 .lpg-our-practice-text {
@@ -36,7 +40,7 @@
   
 .lpg-control-textbox {
   position: relative;
-  transform: translateY(-30px);
+  transform: translateY(-28px);
   border-width: 2px;
   border-color: #3f84a5;
   border-style: solid;
@@ -64,6 +68,16 @@
   100% { padding-top: 80px; padding-bottom: 80px; }
 }
 
+@keyframes lpg-text-slide-up-interior {
+  0% { padding-top: 60px; padding-bottom: 0px }
+  100% { padding-top: 30px; padding-bottom: 30px; }
+}
+
+@-webkit-keyframes lpg-text-slide-up-interior {
+  0% { padding-top: 60px; padding-bottom: 0px }
+  100% { padding-top: 30px; padding-bottom: 30px; }
+}
+
 @media (min-width: 768px) {
   @keyframes lpg-text-slide-up {
     0% { padding-top: 240px; padding-bottom: 160px }
@@ -86,6 +100,19 @@
     0% { padding-top: 290px; padding-bottom: 210px }
     100% { padding-top: 250px; padding-bottom: 250px; }
   }
+}
+
+.lpg-upstep-interior {
+  -webkit-animation: lpg-text-slide-up-interior;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: normal;   
+  animation: lpg-text-slide-up-interior;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-direction: normal;   
 }
 
 .lpg-upstep {
@@ -388,7 +415,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 .lpg-teal-panel {
   width: 100%;
-  background-color: #3f84a5;
+  background-color: #2452a0;
   display: table;
   vertical-align: middle;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
@@ -414,7 +441,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin: 0 auto;
 }
 
-.lpg-white-panel-left {
+.lpg-white-panel-interior {
   width: 100%;
   background-color: #fff;
   display: table;
@@ -423,7 +450,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-size: 1.0em;
   line-height: 1.2em;
   color: #766a63;
-  text-align: left;
+  text-align: left; 
   padding: 30px 40px 30px 40px;
   margin: 0 auto;
 }
@@ -557,9 +584,9 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-children {
-  background: url('/wp-content/themes/apostrophe-2-child/images/children-narrow.jpg') center center;
-  background-size: 100%;
-  background-position: left center;
+  background: url('/wp-content/themes/apostrophe-2-child/images/children-narrow.jpg');
+  background-size: cover;
+  background-position: left top;
   background-repeat: no-repeat;
   color: #fff;
   height: 336px;
@@ -570,7 +597,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  color: #3f84a5;
+  color: #2452a0;
 }
 
 .lpg-park {
@@ -673,10 +700,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 .lpg-title {
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
-  font-size: 26.6px;
   font-weight: 300;
   text-align: center;
-  letter-spacing: 2.66px;
   line-height: 1.3em;
   text-shadow: 1px 1px #000;
 }
