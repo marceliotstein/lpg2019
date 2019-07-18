@@ -14,7 +14,7 @@
 
 .lpg-box-star {
   margin: 0 auto;
-  width: 60px;
+  width: 40px;
 }
 
 .lpg-box-star img {
@@ -40,11 +40,11 @@
   
 .lpg-control-textbox {
   position: relative;
-  transform: translateY(-28px);
+  transform: translateY(-20.1px);
   border-width: 2px;
   border-color: #3f84a5;
   border-style: solid;
-  padding: 50px 20px 20px 20px;
+  padding: 30px 20px 20px 20px;
   z-index: .5;
 }
 
@@ -543,9 +543,9 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  padding: 12px 20px 60px 20px;
+  padding: 40px 0px 60px 0px;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: 1.0em;
+  font-size: 1.4em;
   line-height: 1.2em;
   color: #fff;
 }
@@ -833,7 +833,7 @@ table td {
 }
 
 .lpg-footer-logo-img {
-  width: 15%;
+  width: 25%;
 }
 
 .lpg-logo-img {
@@ -1028,7 +1028,7 @@ table td {
 
   .lpg-footer-panel {
     font-size: 1.2em;
-    padding: 20px 40px 100px 40px;
+    padding: 40px 40px 100px 40px;
   }
 
   .lpg-team {
