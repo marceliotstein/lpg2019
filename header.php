@@ -84,6 +84,21 @@
                   </div>  
                 </div>  
               </div>  
+            <?php } else if ($current_path=="our-team") { ?>
+              <div class="lpg-teamtitles">
+                <div class="lpg-title lpg-our-team">
+                  OUR TEAM
+                </div>
+                <div class="lpg-teal-panel" data-wow-offset="10">
+                  <img src="/wp-content/themes/apostrophe-2-child/images/lpg-ribbon.png" />
+                  <p class="lpg-our-team-text">At LPG, we take each case individually.<br />We work on your behalf with full transparency.
+                  <ul><li>We listen attentively to get the facts of your case&mdash;to spot the legal issues and explain the Laws of the State of New York as they relate to you.</li>
+                   <li>We explain how much the process will cost: legal fees, expert fees (if necessary) and other "add-ons" some lawyers forget to mention.</li>
+                   <li>We anticipate what the realistic outcomes might be in the case.</li>
+                   <li>We proudly work in an ethical and legal manner at all times and keep you informed of who's working on your legal matter.</li></ul>
+                  </p>
+                </div>  
+              </div>  
             <?php } else { ?>
               <div class="lpg-maintitles">
                 <div class="lpg-title lpg-home-title">

@@ -12,6 +12,19 @@
  Text Domain:  apostrophe-2-child
 */
 
+.lpg-bio-panel {
+  padding: 0px 0px 0px 0px; 
+}
+
+strong {
+  font-family: "hvd_fonts_-_brandongrotesque-black", sans-serif;
+}
+
+ul {
+  text-align: left;
+  padding-left: 26px;
+}
+
 .lpg-box-star {
   margin: 0 auto;
   width: 40px;
@@ -28,12 +41,14 @@
   letter-spacing: 2.66px;
 }
 
+.lpg-our-team,
 .lpg-our-practice {
   padding: 0px 0px 35px 0px;
   font-size: 32px;
   letter-spacing: 3.2px;
 }
 
+.lpg-our-team-text,
 .lpg-our-practice-text {
   padding-bottom: 0px;
 }
@@ -455,6 +470,20 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin: 0 auto;
 }
 
+.lpg-white-panel-who-we-are {
+  width: 100%;
+  background-color: #fff;
+  display: table;
+  vertical-align: middle;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.0em;
+  line-height: 1.2em;
+  color: #766a63;
+  text-align: center;
+  padding: 10px 40px 10px 40px;
+  margin: 0 auto;
+}
+
 .lpg-last-white-panel {
   width: 100%;
   background-color: #fff;
@@ -544,8 +573,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   background-position: center bottom;
   background-repeat: no-repeat;
   padding: 40px 0px 60px 0px;
-  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: 1.4em;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serifa
+  font-size: 1.2em;
   line-height: 1.2em;
   color: #fff;
 }
@@ -691,6 +720,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   position: relative;
 }
 
+.lpg-teamtitles,
 .lpg-practicetitles {
   color: #fff;
   margin: 0 auto;
