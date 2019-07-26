@@ -550,7 +550,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-footer-td-right {
-  padding: 6px;
+  padding: 6px 6px 12px 6px;
   width: 240px;  
   text-align: left;
   vertical-align: middle;
@@ -573,7 +573,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   background-position: center bottom;
   background-repeat: no-repeat;
   padding: 40px 0px 60px 0px;
-  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serifa
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: 1.2em;
   line-height: 1.2em;
   color: #fff;
@@ -655,7 +655,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-footer-icon {
-  width: 40px;
+  width: 30px;
 }
 
 .lpg-footer-copyright {
