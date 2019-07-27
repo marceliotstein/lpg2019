@@ -12,6 +12,27 @@
  Text Domain:  apostrophe-2-child
 */
 
+.lpg-clear {
+  clear: both;
+}
+
+.lpg-narrowview {
+  display: block;
+}
+
+.lpg-wideview {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .lpg-narrowview {
+    display: none;
+  }
+  .lpg-wideview {
+    display: block;
+  }
+}
+
 .lpg-bio-panel {
   padding: 0px 0px 0px 0px; 
 }
@@ -454,6 +475,12 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   text-align: center;
   padding: 80px 40px 80px 40px;
   margin: 0 auto;
+}
+
+.lpg-wideview .lpg-image-panel,
+.lpg-wideview .lpg-white-panel {
+  width: 50%;
+  float: left;
 }
 
 .lpg-white-panel-interior {
@@ -1098,7 +1125,7 @@ table td {
 
   .lpg-white-panel {
     font-size: 2em;
-    padding: 250px 40px 250px 40px;
+    padding: 50px 40px 50px 40px;
   }
 
   .lpg-last-white-panel {
