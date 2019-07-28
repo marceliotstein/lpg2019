@@ -418,10 +418,6 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
 }
 
-.main-navigation a:hover {
-  color: white;
-}
-
 .main-navigation .menu-toggle {
   border-bottom-width: 0px;
 }
@@ -496,7 +492,10 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #766a63;
   text-align: center;
-  padding: 160px 40px 160px 40px;
+  padding-top: 40px;
+  padding-right: 5%;
+  padding-bottom: 40px;
+  padding-left: 5%;
   margin: 0 auto;
 }
 
@@ -825,6 +824,7 @@ button {
 
 .lpg-contact-button {
   width: 200px;
+  /*background-color: #2452a0;*/
   color: #fff;
   border-style: solid;
   border-color: #fff;
@@ -834,6 +834,11 @@ button {
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 1.6px;
+}
+
+.lpg-begin-button:hover,
+.lpg-contact-button:hover {
+  color: #2452a0;
 }
 
 .lpg-begin-panel {
@@ -1101,14 +1106,14 @@ table td {
 
   .lpg-personally {
     font-size: 1.3em;
-    padding: 70px 0px 20px 0px;
+    padding: 40px 0px 10px 0px;
   }
 
   .lpg-adept {
     font-size: 1.2em;
     font-weight: 300;
     text-align: center;
-    padding: 20px 220px 130px 220px;
+    padding: 10px 220px 40px 220px;
   }
 
   .lpg-teal-panel {
@@ -1216,7 +1221,7 @@ table td {
   }
 
   .lpg-adept {
-    padding: 20px 220px 130px 220px;
+    padding: 10px 220px 40px 220px;
   }
 
   .lpg-image-panel {
