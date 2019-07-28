@@ -24,16 +24,16 @@
     <script type="text/javascript">
       jQuery(function(jQuery) {
         jQuery(".lpg-contact-button").hover(function() {
-          jQuery(".lpg-contact-panel").show();
+          jQuery(".lpg-contact-panel-wrapper").show();
         });
         jQuery(".lpg-close-contact-button").click(function() {
-          jQuery(".lpg-contact-panel").hide();
+          jQuery(".lpg-contact-panel-wrapper").hide();
         });
         jQuery(".lpg-begin-button").hover(function() {
-          jQuery(".lpg-begin-panel").show();
+          jQuery(".lpg-begin-panel-wrapper").show();
         });
         jQuery(".lpg-close-begin-button").click(function() {
-          jQuery(".lpg-begin-panel").hide();
+          jQuery(".lpg-begin-panel-wrapper").hide();
         });
       });
       
@@ -135,15 +135,17 @@
               </div>  
             <?php } ?>
           </div>
-          <div class="lpg-contact-panel" style="display:none">
-            <div class="lpg-contact">
-              Contact Us
-              <button class="lpg-close-contact-button">
-                X
-              </button>
-            </div>
-            <div class="lpg-contact-box">
-              <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
+          <div class="lpg-contact-panel-wrapper" style="display:none">
+            <div class="lpg-contact-panel">
+              <div class="lpg-contact">
+                Contact Us
+                <button class="lpg-close-contact-button">
+                  X
+                </button>
+              </div>
+              <div class="lpg-contact-box">
+                <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
+              </div>
             </div>
           </div>
           <?php if ($current_page=="HOME") { ?>

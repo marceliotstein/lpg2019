@@ -19,13 +19,15 @@
     <div class="lpg-begin-button-box">
       <button class="lpg-begin-button">LET'S BEGIN</button>
     </div>
-    <div class="lpg-begin-panel" style="display:none">
-      <div class="lpg-begin">
-        Let's Begin
-        <button class="lpg-close-begin-button">X</button>
-      </div>
-      <div class="lpg-begin-box">
-        <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
+    <div class="lpg-begin-panel-wrapper" style="display:none">
+      <div class="lpg-begin-panel">
+        <div class="lpg-begin">
+          Let's Begin
+          <button class="lpg-close-begin-button">X</button>
+        </div>
+        <div class="lpg-begin-box">
+          <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
+        </div>
       </div>
     </div>
 <?php } ?>

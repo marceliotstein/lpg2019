@@ -278,24 +278,6 @@ div.wpcf7-acceptance-missing {
   text-align: left;
 }
 
-.lpg-begin {
-  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-.lpg-begin-box {
-  text-align: left;
-}
-
-.lpg-contact {
-  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
 label {
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: .9em;
@@ -303,21 +285,6 @@ label {
   color: black;
 }
   
-.lpg-contact-panel {
-  padding: 20px;
-  background-color: #eee;
-}
-
-.lpg-contact-button-box {
-  text-align: center;
-}
-
-input[type="submit"] {
-  border-radius: 36px;
-  border: 2px solid black;
-  color: black;
-}
-
 button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, .button:focus, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active, .button:active {
   background-color: transparent;
 }
@@ -376,13 +343,6 @@ div.wpcf7-acceptance-missing {
   text-align: left;
 }
 
-.lpg-contact {
-  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
 label {
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: .9em;
@@ -390,15 +350,6 @@ label {
   color: black;
 }
   
-.lpg-contact-panel {
-  padding: 20px;
-  background-color: #eee;
-}
-
-.lpg-contact-button-box {
-  text-align: center;
-}
-
 input[type="submit"] {
   border-radius: 36px;
   border: 2px solid black;
@@ -808,6 +759,49 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
 }
 
+.lpg-close-contact-button {
+  background: rgba(255,255,255,0);
+}
+
+.site-branding .lpg-contact-box {
+  text-align: left;
+}
+
+.lpg-begin {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.lpg-begin-box {
+  text-align: left;
+}
+
+.lpg-contact {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+label {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: .9em;
+  letter-spacing: 1px;
+  color: black;
+}
+  
+input[type="submit"] {
+  border-radius: 36px;
+  border: 2px solid black;
+  color: black;
+}
+
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, .button:focus, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active, .button:active {
+  background-color: transparent;
+}
+
 button {
   background: rgba(255,255,255,0);
 }
@@ -841,10 +835,26 @@ button {
   color: #2452a0;
 }
 
+.lpg-contact-panel-wrapper {
+  background-color: #2452a0;
+}
+
+.lpg-contact-panel {
+  padding: 20px;
+  background-color: #eee;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.lpg-begin-panel-wrapper {
+  background-color: #2452a0;;
+  transform: translateY(-60px);
+}
+
 .lpg-begin-panel {
   padding: 20px;
   background-color: #eee;
-  transform: translateY(-60px);
+  margin: 0 auto;
 }
 
 .lpg-begin-button-box { 
@@ -1153,6 +1163,14 @@ table td {
 }
 
 @media (min-width: 1024px) {
+  .lpg-contact-panel {
+    width: 50%;
+  }
+
+  .lpg-begin-panel {
+    width: 50%;
+  }
+
   .lpg-footer-logo {
     text-align: left;
     padding-bottom: 0px;
