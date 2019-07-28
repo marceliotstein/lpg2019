@@ -41,10 +41,18 @@
   </head>
   
   <?php 
+    // determine current page
     global $wp;
     $current_url = home_url(add_query_arg(array(), $wp->request));
     $current_path = str_replace("http://lpgdemo.marceliotstein.net/","",$current_url);
     $current_path = str_replace("http://lpgdemo.marceliotstein.net","",$current_path);
+
+    $current_page = "HOME";
+    if ($current_path=="about-lpg") { 
+      $current_page = "ABOUT";
+    } else if ($current_path=="our-team") { 
+      $current_page = "TEAM";
+    }
   ?>
 
   <body <?php body_class(); ?>>
@@ -67,7 +75,7 @@
 	 	 <?php //apostrophe_2_social_menu(); ?>
 	       </nav>
             </div>
-            <?php if ($current_path=="about-lpg") { ?>
+            <?php if ($current_page=="ABOUT") { ?>
               <div class="lpg-practicetitles">
                 <div class="lpg-title lpg-our-practice">
                   OUR PRACTICE
@@ -84,7 +92,7 @@
                   </div>  
                 </div>  
               </div>  
-            <?php } else if ($current_path=="our-team") { ?>
+            <?php } else if ($current_page=="TEAM") { ?>
               <div class="lpg-teamtitles">
                 <div class="lpg-title lpg-our-team">
                   OUR TEAM
@@ -104,13 +112,19 @@
                 <div class="lpg-title lpg-home-title">
                   THE LAW FIRM <span class="lpg-title-of">of</span><br />LAURENCE P. GREENBERG
                 </div>
+ 
                 <hr class="lpg-bar" />
-                <div class="lpg-personally">
-                  WE TAKE YOUR CASE PERSONALLY
-                </div>
-                <div class="lpg-adept">
-                  The Law Firm of Laurence P. Greenberg is adept in every aspect of matrimonial law &mdash;no matter how complex with victories at both the trial and appellate levels.
+                <div class="lpg-narrowview">
+                  <div class="lpg-personally">
+                    WE TAKE YOUR CASE PERSONALLY
+                  </div>
+                  <div class="lpg-adept">
+                    The Law Firm of Laurence P. Greenberg is adept in every aspect of matrimonial law &mdash;no matter how complex with victories at both the trial and appellate levels.
+                  </div>  
                 </div>  
+                <div class="lpg-wideview">
+                  <div class="lpg-spacer"></div>
+                </div>
                 <div class="lpg-contact-button-box">
                   <button class="lpg-contact-button">
                     CONTACT US
@@ -132,6 +146,16 @@
               <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
             </div>
           </div>
+          <?php if ($current_page=="HOME") { ?>
+            <div class="lpg-wideview">
+              <div class="lpg-personally">
+                WE TAKE YOUR CASE PERSONALLY
+              </div>
+              <div class="lpg-adept">
+                The Law Firm of Laurence P. Greenberg is adept in every aspect of matrimonial law &mdash;no matter how complex with victories at both the trial and appellate levels.
+              </div>  
+            </div>  
+          <?php } ?>
         </div>
 
       </header><!-- #masthead -->

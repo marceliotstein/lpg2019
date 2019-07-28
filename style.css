@@ -542,13 +542,13 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 .lpg-vertical-line {
   border-left: 2px solid #fff;
   height: 35px;
-  margin-left: 75px;
+  margin-left: 100px;
 }
 
 .lpg-vertical-line-placeholder {
   border-left: 0px solid #fff;
   height: 35px;
-  margin-left: 75px;
+  margin-left: 100px;
 }
 
 .lpg-image-panel {
@@ -811,11 +811,11 @@ button {
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  margin-left: -75px;
+  margin-left: -100px;
 }
 
 .lpg-contact-button {
-  width: 150px;
+  width: 200px;
   color: #fff;
   border-style: solid;
   border-color: #fff;
@@ -823,8 +823,8 @@ button {
   padding: 10px 5px;
   margin: 0 auto;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: 13px;
-  letter-spacing: 1.3px;
+  font-size: 16px;
+  letter-spacing: 1.6px;
 }
 
 .lpg-begin-panel {
@@ -835,12 +835,12 @@ button {
 
 .lpg-begin-button-box { 
   text-align: center;
-  transform: translateY(-80px);
+  transform: translateY(-100px);
 }
 
 .lpg-begin-button {
   background-color: #2452a0;
-  width: 150px;
+  width: 200px;
   color: #fff;
   border-style: solid;
   border-color: #2452a0;
@@ -848,7 +848,8 @@ button {
   padding: 10px 5px 10px 5px;
   margin: 20px auto 0 auto;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: .7em;
+  font-size: 16px;
+  letter-spacing: 1.6px;
 }
 
 .lpg-bar {
@@ -860,12 +861,17 @@ button {
   text-shadow: 1px 1px #000;
 }
 
+.lpg-spacer {
+  height: 50px;
+}
+
 .lpg-personally {
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
   font-size: 1em;
   letter-spacing: 1px;
   text-align: center;
   padding: 120px 0px 8px 0px;
+  color: white;
 }
 
 .lpg-adept {
@@ -875,6 +881,14 @@ button {
   letter-spacing: 1px;
   text-align: center;
   padding: 0px 40px 62px 40px;
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  .lpg-personally,
+  .lpg-adept {
+    background-color: #2452a0;
+  }
 }
 
 table,
@@ -1092,7 +1106,7 @@ table td {
     font-size: 1.2em;
     font-weight: 300;
     text-align: center;
-    padding: 20px 75px 130px 75px;
+    padding: 20px 220px 130px 220px;
   }
 
   .lpg-teal-panel {
@@ -1172,7 +1186,7 @@ table td {
   }
 
   .lpg-adept {
-    padding: 20px 75px 130px 75px;
+    padding: 20px 220px 130px 220px;
   }
 
   .lpg-image-panel {
