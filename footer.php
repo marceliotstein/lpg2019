@@ -32,40 +32,87 @@
   </div><!-- #content -->
   <?php wp_footer(); ?>
   <div class="lpg-footer-panel">
-    <div class="lpg-footer-logo">
-      <img class="lpg-footer-logo-img" alt="LPG Logo" src="/wp-content/themes/apostrophe-2-child/images/lpg-logo-trim.png" />
-    </div>
-    <div class="lpg-footer-address">
-      The Law Firm of Laurence P. Greenberg<br />
-      299 Broadway, New York, NY 10007
-    </div>
-    <div class="lpg-footer-table-wrapper">
-      <table class="lpg-footer-table">
-        <tr class="lpg-footer-tr">
-          <td class="lpg-footer-td-left">
-            <img alt="mail" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-mail.png" />
+    <div class="lpg-wideview">
+      <table class="lpg-widefooter-table">
+        <tr>
+          <td class="lpg-widefooter-td-left">
+            <div class="lpg-footer-logo">
+              <img class="lpg-footer-logo-img" alt="LPG Logo" src="/wp-content/themes/apostrophe-2-child/images/lpg-logo-trim.png" />
+            </div>
+            <div class="lpg-footer-address">
+              The Law Firm of Laurence P. Greenberg<br />
+              299 Broadway, New York, NY 10007
+            </div>
           </td>
-          <td class="lpg-footer-td-right">
-            <a href="mailto:info@lpgdivorce.com">info@lpgdivorce.com</a>
-          </td>
-        </tr>
-        <tr class="lpg-footer-tr">
-          <td class="lpg-footer-td-left">
-            <img alt="phone" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-phone.png" />
-          </td>
-          <td class="lpg-footer-td-right">
-             (212) 608 9000
-          </td>
-        </tr>
-        <tr class="lpg-footer-tr">
-          <td class="lpg-footer-td-left">
-            <img alt="fax" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-fax.png" />
-          </td>
-          <td class="lpg-footer-td-right">
-            (212) 732 6972
+          <td class="lpg-widefooter-td-right">
+            <div class="lpg-footer-table-wrapper">
+              <table class="lpg-footer-table">
+                <tr class="lpg-footer-tr">
+                  <td class="lpg-footer-td-left">
+                    <img alt="mail" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-mail.png" />
+                  </td>
+                  <td class="lpg-footer-td-right">
+                    <a href="mailto:info@lpgdivorce.com">info@lpgdivorce.com</a>
+                  </td>
+                </tr>
+                <tr class="lpg-footer-tr">
+                  <td class="lpg-footer-td-left">
+                    <img alt="phone" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-phone.png" />
+                  </td>
+                  <td class="lpg-footer-td-right">
+                     (212) 608 9000
+                  </td>
+                </tr>
+                <tr class="lpg-footer-tr">
+                  <td class="lpg-footer-td-left">
+                    <img alt="fax" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-fax.png" />
+                  </td>
+                  <td class="lpg-footer-td-right">
+                    (212) 732 6972
+                  </td>
+                </tr>
+              </table>
+            </div>
           </td>
         </tr>
       </table>
+    </div>
+    <div class="lpg-narrowview">
+      <div class="lpg-footer-logo">
+        <img class="lpg-footer-logo-img" alt="LPG Logo" src="/wp-content/themes/apostrophe-2-child/images/lpg-logo-trim.png" />
+      </div>
+      <div class="lpg-footer-address">
+        The Law Firm of Laurence P. Greenberg<br />
+        299 Broadway, New York, NY 10007
+      </div>
+      <div class="lpg-footer-table-wrapper">
+        <table class="lpg-footer-table">
+          <tr class="lpg-footer-tr">
+            <td class="lpg-footer-td-left">
+              <img alt="mail" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-mail.png" />
+            </td>
+            <td class="lpg-footer-td-right">
+              <a href="mailto:info@lpgdivorce.com">info@lpgdivorce.com</a>
+            </td>
+          </tr>
+          <tr class="lpg-footer-tr">
+            <td class="lpg-footer-td-left">
+              <img alt="phone" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-phone.png" />
+            </td>
+            <td class="lpg-footer-td-right">
+               (212) 608 9000
+            </td>
+          </tr>
+          <tr class="lpg-footer-tr">
+            <td class="lpg-footer-td-left">
+              <img alt="fax" class="lpg-footer-icon" src="/wp-content/themes/apostrophe-2-child/images/icons-fax.png" />
+            </td>
+            <td class="lpg-footer-td-right">
+              (212) 732 6972
+            </td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
   <div class="lpg-footer-copyright">

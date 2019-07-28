@@ -24,6 +24,15 @@
   display: none;
 }
 
+.lpg-widefooter-td-left {
+  padding-left: 40px;
+  width: 65%;
+}
+
+.lpg-widefooter-td-right {
+  width: 35%;
+}
+
 @media (min-width: 1024px) {
   .lpg-narrowview {
     display: none;
@@ -835,7 +844,7 @@ button {
 
 .lpg-begin-button-box { 
   text-align: center;
-  transform: translateY(-100px);
+  transform: translateY(-80px);
 }
 
 .lpg-begin-button {
@@ -882,13 +891,6 @@ button {
   text-align: center;
   padding: 0px 40px 62px 40px;
   color: white;
-}
-
-@media (min-width: 1024px) {
-  .lpg-personally,
-  .lpg-adept {
-    background-color: #2452a0;
-  }
 }
 
 table,
@@ -1137,7 +1139,7 @@ table td {
 
   .lpg-footer-panel {
     font-size: 1.2em;
-    padding: 40px 40px 100px 40px;
+    padding: 40px 40px 40px 40px;
   }
 
   .lpg-team {
@@ -1146,6 +1148,34 @@ table td {
 }
 
 @media (min-width: 1024px) {
+  .lpg-footer-logo {
+    text-align: left;
+    padding-bottom: 0px;
+  }
+
+  .lpg-footer-address {
+    text-align: left;
+  }
+
+  .lpg-footer-copyright {
+    transform: translateY(-60px);
+  }
+
+  .lpg-footer-panel {
+    transform: translateY(-60px);
+    padding: 25px 40px 25px 40px;
+    font-size: 1.4em;
+  }
+
+  .lpg-footer-logo-img {
+    width: 15%;
+  }
+
+  .lpg-personally,
+  .lpg-adept {
+    background-color: #2452a0;
+  }
+
   .lpg-empire-panel {
     background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/empireblue1920.jpg') top center;
     background-size: 100%;
@@ -1202,14 +1232,5 @@ table td {
   .lpg-image-corner-panel {
     padding: 80px 250px 250px 80px;
     font-size: 1.4em;
-  }
-
-  .lpg-footer-panel {
-    padding: 25px 40px 120px 40px;
-    font-size: 1.4em;
-  }
-
-  .lpg-footer-logo-img {
-    width: 30%;
   }
 }
