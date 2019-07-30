@@ -30,6 +30,8 @@
         </div>
       </div>
     </div>
+<?php } else { ?>
+    <button></button>
 <?php } ?>
   </div><!-- #content -->
   <?php wp_footer(); ?>
