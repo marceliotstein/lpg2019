@@ -886,7 +886,7 @@ button {
 }
 
 .lpg-spacer {
-  height: 50px;
+  height: 100px;
 }
 
 .lpg-personally {
@@ -1116,14 +1116,14 @@ table td {
 
   .lpg-personally {
     font-size: 1.3em;
-    padding: 40px 0px 10px 0px;
+    padding: 55px 0px 10px 0px;
   }
 
   .lpg-adept {
     font-size: 1.2em;
     font-weight: 300;
     text-align: center;
-    padding: 10px 220px 40px 220px;
+    padding: 10px 120px 100px 120px;
   }
 
   .lpg-teal-panel {
@@ -1194,8 +1194,13 @@ table td {
     width: 15%;
   }
 
-  .lpg-personally,
+  .lpg-personally {
+    padding: 55px 220px 10px 220px;
+    background-color: #2452a0;
+  }
+
   .lpg-adept {
+    padding: 10px 220px 60px 220px;
     background-color: #2452a0;
   }
 
@@ -1238,9 +1243,6 @@ table td {
     font-size: 1.4em;
   }
 
-  .lpg-adept {
-    padding: 10px 220px 40px 220px;
-  }
 
   .lpg-image-panel {
     padding: 250px 40px 250px 40px;
@@ -1255,5 +1257,14 @@ table td {
   .lpg-image-corner-panel {
     padding: 80px 250px 250px 80px;
     font-size: 1.4em;
+  }
+}
+
+@media (min-width: 1300px) {
+  .lpg-personally {
+    padding: 100px 320px 40px 320px;
+  }
+  .lpg-adept {
+    padding: 40px 320px 100px 320px;
   }
 }
