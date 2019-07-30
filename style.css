@@ -443,7 +443,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #766a63;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 160px;
   padding-right: 5%;
   padding-bottom: 40px;
   padding-left: 5%;
@@ -620,6 +620,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
+  padding-left: 120px !important;
+  padding-right: 120px !important;
 }
 
 .lpg-handshake-wide {
@@ -1243,9 +1245,8 @@ table td {
     font-size: 1.4em;
   }
 
-
   .lpg-image-panel {
-    padding: 250px 40px 250px 40px;
+    padding: 250px 220px 250px 220px;
     font-size: 1.4em;
   }
 
@@ -1261,9 +1262,14 @@ table td {
 }
 
 @media (min-width: 1300px) {
+  .lpg-image-panel {
+    padding: 250px 320px 250px 320px;
+  }
+
   .lpg-personally {
     padding: 100px 320px 40px 320px;
   }
+
   .lpg-adept {
     padding: 40px 320px 100px 320px;
   }
