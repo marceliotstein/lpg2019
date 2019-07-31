@@ -131,13 +131,13 @@ ul {
 }
 
 @keyframes lpg-text-slide-up-interior {
-  0% { padding-top: 100px; padding-bottom: 0px }
-  100% { padding-top: 70px; padding-bottom: 30px; }
+  0% { padding-top: 110px; padding-bottom: 0px }
+  100% { padding-top: 80px; padding-bottom: 30px; }
 }
 
 @-webkit-keyframes lpg-text-slide-up-interior {
-  0% { padding-top: 100px; padding-bottom: 0px }
-  100% { padding-top: 70px; padding-bottom: 30px; }
+  0% { padding-top: 110px; padding-bottom: 0px }
+  100% { padding-top: 80px; padding-bottom: 30px; }
 }
 
 @media (min-width: 768px) {
@@ -483,7 +483,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #766a63;
   text-align: left; 
-  padding: 70px 120px 30px 120px;
+  padding: 80px 120px 30px 120px;
   margin: 0 auto;
 }
 
@@ -496,7 +496,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #766a63;
   text-align: left; 
-  padding: 70px 120px 30px 120px;
+  padding: 80px 120px 30px 120px;
   margin: 0 auto;
 }
 
@@ -514,7 +514,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #766a63;
   text-align: left; 
-  padding: 70px 20px 30px 20px;
+  padding: 80px 20px 30px 20px;
   margin: 0 auto;
 }
 
@@ -1208,7 +1208,7 @@ table td {
 @media (min-width: 1024px) {
   .lpg-white-panel-interior,
   .lpg-trans-panel-interior {
-    padding: 70px 220px 30px 220px;
+    padding: 80px 220px 30px 220px;
   }
 
   .lpg-contact-panel {
@@ -1290,6 +1290,14 @@ table td {
   .lpg-image-corner-panel {
     padding: 80px 250px 250px 80px;
     font-size: 1.4em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lpg-empire-panel {
+    background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/empireblue1000.jpg') top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 }
 
