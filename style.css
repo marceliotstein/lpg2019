@@ -12,6 +12,11 @@
  Text Domain:  apostrophe-2-child
 */
 
+.lpg-portraits {
+  background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/lpg-team-background.jpg') center center;
+  background-size: cover;
+}
+
 .lpg-buttonfix {
   border: 0px solid #ffffff;
   color: #ffffff;
@@ -467,6 +472,19 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 .lpg-white-panel-interior {
   width: 100%;
   background-color: #fff;
+  display: table;
+  vertical-align: middle;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.0em;
+  line-height: 1.2em;
+  color: #766a63;
+  text-align: left; 
+  padding: 70px 120px 30px 120px;
+  margin: 0 auto;
+}
+
+.lpg-trans-panel-interior {
+  width: 100%;
   display: table;
   vertical-align: middle;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
@@ -1167,7 +1185,8 @@ table td {
 }
 
 @media (min-width: 1024px) {
-  .lpg-white-panel-interior {
+  .lpg-white-panel-interior,
+  .lpg-trans-panel-interior {
     padding: 70px 220px 30px 220px;
   }
 
