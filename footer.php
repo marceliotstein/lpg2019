@@ -31,10 +31,9 @@
       </div>
     </div>
 <?php } else { ?>
-    <button></button>
+    <button class="lpg-buttonfix"></button>
 <?php } ?>
   </div><!-- #content -->
-  <?php wp_footer(); ?>
   <div class="lpg-footer-panel">
     <div class="lpg-wideview">
       <table class="lpg-widefooter-table">
@@ -122,5 +121,6 @@
   <div class="lpg-footer-copyright">
     &copy; Copyright 2019 All Rights Reserved
   </div>
+  <?php wp_footer(); ?>
 </body>
 </html>

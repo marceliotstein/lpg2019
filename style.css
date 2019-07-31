@@ -12,6 +12,14 @@
  Text Domain:  apostrophe-2-child
 */
 
+.lpg-buttonfix {
+  border: 0px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  line-height: .1em;
+}
+
 .lpg-clear {
   clear: both;
 }
@@ -114,13 +122,13 @@ ul {
 }
 
 @keyframes lpg-text-slide-up-interior {
-  0% { padding-top: 60px; padding-bottom: 0px }
-  100% { padding-top: 30px; padding-bottom: 30px; }
+  0% { padding-top: 100px; padding-bottom: 0px }
+  100% { padding-top: 70px; padding-bottom: 30px; }
 }
 
 @-webkit-keyframes lpg-text-slide-up-interior {
-  0% { padding-top: 60px; padding-bottom: 0px }
-  100% { padding-top: 30px; padding-bottom: 30px; }
+  0% { padding-top: 100px; padding-bottom: 0px }
+  100% { padding-top: 70px; padding-bottom: 30px; }
 }
 
 @media (min-width: 768px) {
@@ -466,7 +474,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #766a63;
   text-align: left; 
-  padding: 30px 40px 30px 40px;
+  padding: 70px 120px 30px 120px;
   margin: 0 auto;
 }
 
@@ -1159,6 +1167,10 @@ table td {
 }
 
 @media (min-width: 1024px) {
+  .lpg-white-panel-interior {
+    padding: 70px 220px 30px 220px;
+  }
+
   .lpg-contact-panel {
     width: 50%;
   }
@@ -1176,12 +1188,7 @@ table td {
     text-align: left;
   }
 
-  .lpg-footer-copyright {
-    transform: translateY(-60px);
-  }
-
   .lpg-footer-panel {
-    transform: translateY(-60px);
     padding: 25px 40px 25px 40px;
     font-size: 1.4em;
   }
