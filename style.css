@@ -17,6 +17,10 @@
   background-size: cover;
 }
 
+.lpg-portraits hr {
+  border-top: 5px solid #2452a0;
+}
+
 .lpg-buttonfix {
   border: 0px solid #ffffff;
   color: #ffffff;
@@ -496,6 +500,24 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin: 0 auto;
 }
 
+.lpg-wideview .lpg-bio-panel {
+  width: 40%;
+  display: table-cell;
+}
+
+.lpg-trans-panel-interior-wide {
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.0em;
+  line-height: 1.2em;
+  color: #766a63;
+  text-align: left; 
+  padding: 70px 20px 30px 20px;
+  margin: 0 auto;
+}
+
 .lpg-white-panel-who-we-are {
   width: 100%;
   background-color: #fff;
@@ -846,7 +868,6 @@ button {
 
 .lpg-contact-button {
   width: 200px;
-  /*background-color: #2452a0;*/
   color: #fff;
   border-style: solid;
   border-color: #fff;
