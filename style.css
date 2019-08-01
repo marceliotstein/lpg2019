@@ -63,6 +63,10 @@
   padding: 0px 0px 0px 0px; 
 }
 
+.lpg-landmark {
+  font-size: .9em;
+}
+
 strong {
   font-family: "hvd_fonts_-_brandongrotesque-black", sans-serif;
 }
@@ -866,6 +870,13 @@ button {
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: -100px;
+}
+
+.lpg-news-contact-button-box {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
 
 .lpg-contact-button {

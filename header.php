@@ -111,6 +111,22 @@
                   </p>
                 </div>  
               </div>  
+            <?php } else if ($current_page=="NEWS") { ?>
+              <div class="lpg-newstitles">
+                <div class="lpg-title lpg-our-process">
+                  IN THE NEWS
+                </div>
+                <div class="lpg-teal-panel" data-wow-offset="10">
+                  <img src="/wp-content/themes/apostrophe-2-child/images/lpg-ribbon.png" />
+                  <div class="lpg-title">LANDMARK DECISIONS</div>
+                  <p class="lpg-our-news-text">Over the course of his career Mr. Greenberg<br />has been involved in numerous landmark legal<br />decisions in which he has been instrumental in<br />making new law. Some of Mr. Greenberg's<br />landmark decisions include:<br /><br /><div class="lpg-landmark"><strong>Branche v. Holloway, 124 A.D.3d 553, 2 N.Y.S.3d 450 (1st Dept. 2015)</strong><br />awarding a wife an unequal distribution of marital<br /> property as a result of the husband's misconduct.<br /><br /><strong>Brown v. Brown, 123 A.D.3d 596 N.Y.S.2d 59 (1st Dept. 2014)</strong><br />awarding a wife $37,000 per month in temporary<br />maintenance taking into consideration the pre-<br />separation standard of living and imputing to the<br />husband $900,000 per year given his ability to<br />manipulate his income.<br /><br /><strong>Gross v. Gross, 40 A.D.3d 448, 836 N.Y.S.2d 166 (1st Dept. 2007)</strong><br />in which Mr. Greenberg had the trial judge unanimously<br /> reversed on appeal for improperly granting a judgement<br />of divorce despite insufficient evidence.<br /><br /><strong>Berk v. Berk, 5 A.D.3d 165, 773 N.Y.S.2d 53 (1st Dept. 2004)</strong><br />upholding the lower court's determination precluding a husband<br />from offering evidence on financial issues in the<br />divorce action, given the husband's repeated violations<br />of court orders, failure to pay support, and persistent<br />refusal to provide financial disclosure.</div></p>
+                  <div class="lpg-news-contact-button-box">
+                    <button class="lpg-contact-button">
+                    CONTACT US
+                    </button>
+                  </div>  
+                </div>  
+              </div>  
             <?php } else { ?>
               <div class="lpg-maintitles">
                 <div class="lpg-title lpg-home-title">
