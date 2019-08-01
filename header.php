@@ -48,10 +48,14 @@
     $current_path = str_replace("http://lpgdemo.marceliotstein.net","",$current_path);
 
     $current_page = "HOME";
-    if ($current_path=="about-lpg") { 
+    if ($current_path=="our-process") { 
       $current_page = "ABOUT";
-    } else if ($current_path=="our-team") { 
-      $current_page = "TEAM";
+    } else if ($current_path=="our-process") { 
+      $current_page = "PROCESS";
+    } else if ($current_path=="our-practice") { 
+      $current_page = "PRACTICE";
+    } else if ($current_path=="in-the-news") { 
+      $current_page = "NEWS";
     }
   ?>
 
@@ -75,14 +79,14 @@
 	 	 <?php //apostrophe_2_social_menu(); ?>
 	       </nav>
             </div>
-            <?php if ($current_page=="ABOUT") { ?>
-              <div class="lpg-practicetitles">
-                <div class="lpg-title lpg-our-practice">
-                  OUR PRACTICE
+            <?php if ($current_page=="PROCESS") { ?>
+              <div class="lpg-processtitles">
+                <div class="lpg-title lpg-our-process">
+                  OUR PROCESS
                 </div>
                 <div class="lpg-teal-panel" data-wow-offset="10">
                   <img src="/wp-content/themes/apostrophe-2-child/images/lpg-ribbon.png" />
-                  <p class="lpg-our-practice-text">A divorce is an extremely emotional<br /> and personal process.<br>Whether you are a public figure or not,<br />service and confidentiality are<br />at the core of our representation.</p>
+                  <p class="lpg-our-process-text">A divorce is an extremely emotional<br /> and personal process.<br>Whether you are a public figure or not,<br />service and confidentiality are<br />at the core of our representation.</p>
                   <div class="lpg-contact-button-box">
                     <button class="lpg-contact-button">
                     CONTACT US
@@ -92,10 +96,10 @@
                   </div>  
                 </div>  
               </div>  
-            <?php } else if ($current_page=="TEAM") { ?>
+            <?php } else if ($current_page=="PRACTICE") { ?>
               <div class="lpg-teamtitles">
                 <div class="lpg-title lpg-our-team">
-                  OUR TEAM
+                  OUR PRACTICE
                 </div>
                 <div class="lpg-teal-panel" data-wow-offset="10">
                   <img src="/wp-content/themes/apostrophe-2-child/images/lpg-ribbon.png" />
@@ -125,13 +129,15 @@
                 <div class="lpg-wideview">
                   <div class="lpg-spacer"></div>
                 </div>
-                <div class="lpg-contact-button-box">
-                  <button class="lpg-contact-button">
-                    CONTACT US
-                  </button>
-                  <div class="lpg-vertical-line">
+                <a name="contact-link">
+                  <div class="lpg-contact-button-box">
+                    <button class="lpg-contact-button">
+                      CONTACT US
+                    </button>
+                    <div class="lpg-vertical-line">
+                    </div>  
                   </div>  
-                </div>  
+                </a>
               </div>  
             <?php } ?>
           </div>
