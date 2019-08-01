@@ -18,7 +18,7 @@
 }
 
 .lpg-portraits hr {
-  border-top: 5px solid #2452a0;
+  border-top: 3px solid #2452a0;
 }
 
 .lpg-buttonfix {
@@ -488,6 +488,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-trans-panel-interior {
+  background-color: #ffffff;
   width: 100%;
   display: table;
   vertical-align: middle;
@@ -501,6 +502,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-wideview .lpg-bio-panel {
+  padding-top: 6px;
   width: 40%;
   display: table-cell;
 }
@@ -514,7 +516,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #766a63;
   text-align: left; 
-  padding: 80px 20px 30px 20px;
+  padding: 30px 20px 0px 20px;
   margin: 0 auto;
 }
 
@@ -524,11 +526,11 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   display: table;
   vertical-align: middle;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
-  font-size: 1.0em;
+  font-size: 1.2em;
   line-height: 1.2em;
   color: #766a63;
   text-align: center;
-  padding: 10px 40px 10px 40px;
+  padding: 0px 40px 30px 40px;
   margin: 0 auto;
 }
 
@@ -1176,7 +1178,7 @@ table td {
 
   .lpg-teal-panel {
     font-size: 1.4em;
-    padding: 30px 40px 100px 40px;
+    padding: 30px 120px 100px 120px;
   }
 
   .lpg-white-panel,
@@ -1211,6 +1213,11 @@ table td {
 }
 
 @media (min-width: 1024px) {
+  .lpg-portraits {
+     padding-left: 140px;
+     padding-right: 140px;
+   }
+
   .lpg-white-panel-interior,
   .lpg-trans-panel-interior {
     padding: 80px 220px 30px 220px;
@@ -1264,8 +1271,7 @@ table td {
 
 
   .lpg-teal-panel {
-    font-size: 2em;
-    padding: 80px 40px 120px 40px;
+    padding: 80px 220px 120px 220px;
   }
 
   .lpg-white-panel {
