@@ -12,8 +12,35 @@
  Text Domain:  apostrophe-2-child
 */
 
+.lpg-center-ribbon {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .lpg-our-news-text {
   text-align: left;
+}
+
+.lpg-media-listings {
+  padding: 0px 140px 0px 140px;
+}
+
+.lpg-media-item {
+  padding: 20px 0px 20px 0px;
+}
+
+.lpg-media-link,
+.lpg-media-link a {
+  font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
+  font-size: .9em;
+  color: #2452a0;
+  text-decoration: none;
+}
+
+.lpg-media-text {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: .9em;
+  color: #766a63
 }
 
 .lpg-portraits {
@@ -738,6 +765,22 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   color: #fff;
 }
 
+.lpg-park {
+  background: url('/wp-content/themes/apostrophe-2-child/images/park-standard.jpg') center center;
+  background-size: 125%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.lpg-courthouse {
+  background: url('/wp-content/themes/apostrophe-2-child/images/courthouse-narrow.jpg') center center;
+  background-size: 125%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
 .lpg-footer-panel {
   position: relative;
   width: 100%;
@@ -1193,6 +1236,10 @@ table td {
 }
 
 @media (min-width: 768px) {
+  .lpg-media-listings {
+    padding: 0px 240px 0px 240px;
+  }
+
   .lpg-white-panel-interior,
   .lpg-trans-panel-interior {
     padding: 80px 120px 30px 120px;
@@ -1284,6 +1331,10 @@ table td {
 }
 
 @media (min-width: 1024px) {
+  .lpg-media-listings {
+    padding: 0px 340px 0px 340px;
+  }
+
   .lpg-portraits {
      padding-left: 140px;
      padding-right: 140px;
