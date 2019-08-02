@@ -12,6 +12,10 @@
  Text Domain:  apostrophe-2-child
 */
 
+.lpg-our-news-text {
+  text-align: left;
+}
+
 .lpg-portraits {
   background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/lpg-team-background.jpg') center center;
   background-size: cover;
@@ -440,6 +444,20 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin: 0 auto;
 }
 
+.lpg-teal-news-panel {
+  width: 100%;
+  background-color: #2452a0;
+  display: table;
+  vertical-align: middle;
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: 1.0em;
+  line-height: 1.2em;
+  color: #ffffff;
+  text-align: left;
+  padding: 45px 40px 80px 40px;
+  margin: 0 auto;
+}
+
 .lpg-white-panel {
   width: 100%;
   background-color: #fff;
@@ -788,10 +806,33 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   animation-direction: alternate;
 }
 
+.lpg-skyline-panel {
+  background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/skyline-narrow.jpg') top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-animation: animatedBackground;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  animation: animatedBackground;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
 .lpg-maintitles {
   color: #fff;
   margin: 0 auto;
   padding: 68px 0px 30px 0px;
+  position: relative;
+}
+
+.lpg-newstitles {
+  color: #fff;
+  margin: 0 auto;
+  padding: 0px 0px 0px 0px;
   position: relative;
 }
 
@@ -801,6 +842,13 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin: 0 auto;
   padding: 200px 0px 0px 0px;
   position: relative;
+}
+
+.lpg-landmark-title {
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2.7px;
 }
 
 .lpg-title {
@@ -877,6 +925,7 @@ button {
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+  text-align: center;
 }
 
 .lpg-contact-button {
@@ -1136,7 +1185,7 @@ table td {
 
 	.jetpack-social-navigation ul li a {
 		line-height: 60px;
-	}
+	s
 
 	.apostrophe-2-navigation .dropdown-toggle {
 		display: block;
@@ -1151,6 +1200,12 @@ table td {
 
   .lpg-empire-panel {
     background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/empireblue1000.jpg') top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .lpg-skyline-panel {
+    background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/skyline-wide.jpg') top center;
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -1185,6 +1240,11 @@ table td {
     font-weight: 300;
     text-align: center;
     padding: 10px 120px 100px 120px;
+  }
+
+  .lpg-teal-news-panel {
+    font-size: 1.4em;
+    padding: 30px 80px 100px 80px;
   }
 
   .lpg-teal-panel {
@@ -1280,6 +1340,9 @@ table td {
     padding: 50px 0px 30px 0px;
   }
 
+  .lpg-teal-news-panel {
+    padding: 80px 120px 120px 120px;
+  }
 
   .lpg-teal-panel {
     padding: 80px 220px 120px 220px;
