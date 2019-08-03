@@ -213,8 +213,8 @@ ul {
 
 @media (min-width: 1024px) {
   @keyframes lpg-text-slide-up {
-    0% { padding-top: 290px; padding-bottom: 210px }
-    100% { padding-top: 250px; padding-bottom: 250px; }
+    0% { padding-top: 215px; }
+    100% { padding-top: 175px; }
   }
 
   @-webkit-keyframes lpg-text-slide-up {
@@ -517,9 +517,10 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: 1.0em;
   line-height: 1.2em;
+  letter-spacing: .06em;
   color: #766a63;
   text-align: center;
-  padding: 80px 40px 80px 40px;
+  padding: 80px 7% 80px 7%;
   margin: 0 auto;
 }
 
@@ -531,12 +532,14 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: 1.0em;
   line-height: 1.2em;
+  letter-spacing: .06em;
   color: #766a63;
   text-align: center;
-  padding-top: 160px;
-  padding-right: 5%;
-  padding-bottom: 40px;
-  padding-left: 5%;
+  padding: 175px 0px 0px 0px;
+}
+
+.lpg-white-panel-wide-text {
+  width: 470px;
   margin: 0 auto;
 }
 
@@ -919,10 +922,12 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-title {
+  font-size: 1.7em;
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
   font-weight: 300;
   text-align: center;
   line-height: 1.3em;
+  letter-spacing: .1em;
   text-shadow: 1px 1px #000;
 }
 
@@ -1252,7 +1257,7 @@ table td {
 
 	.jetpack-social-navigation ul li a {
 		line-height: 60px;
-	s
+	}
 
 	.apostrophe-2-navigation .dropdown-toggle {
 		display: block;
@@ -1295,10 +1300,6 @@ table td {
 
   .main-navigation .menu-toggle:before {
     font-size: 1.7em;
-  }
-
-  .lpg-title {
-    font-size: 1.6em;
   }
 
   .lpg-personally {
@@ -1431,10 +1432,6 @@ table td {
   .lpg-last-white-panel {
     font-size: 2em;
     padding: 250px 40px 250px 40px;
-  }
-
-  .lpg-title {
-    font-size: 1.4em;
   }
 
   .lpg-image-panel {
