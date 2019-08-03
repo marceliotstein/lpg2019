@@ -12,6 +12,19 @@
  Text Domain:  apostrophe-2-child
 */
 
+.lpg-topmenu-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.lpg-topmenu-item {
+  padding-top: 40px;
+  padding-right: 50px; 
+  font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
+  font-size: .8em;
+  float: right;
+}
+
 .lpg-center-ribbon {
   text-align: center;
   margin: 0 auto;
@@ -81,7 +94,18 @@
   width: 35%;
 }
 
+#site-navigation-wide {
+  display: none;
+}
+
 @media (min-width: 1024px) {
+  #site-navigation {
+    display: none;
+  }
+  #site-navigation-wide {
+    display: block;
+  }
+
   .lpg-narrowview {
     display: none;
   }
@@ -1093,8 +1117,8 @@ table td {
 
 .lpg-logo {
   position: absolute;
-  left: 10px;
-  top: 10px;
+  left: 28px;
+  top: 28px;
   text-align: left;
 }
 
@@ -1161,7 +1185,7 @@ table td {
 		display: block;
 		height: 60px;
 		line-height: 52px;
-		margin: 0;
+		margin: 20px;
 		padding: 0;
 	}
 
