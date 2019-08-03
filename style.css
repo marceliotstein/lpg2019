@@ -524,7 +524,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin: 0 auto;
 }
 
-.lpg-white-panel-wide {
+.lpg-white-panel-half {
   width: 100%;
   background-color: #fff;
   display: table;
@@ -538,13 +538,19 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   padding: 175px 0px 0px 0px;
 }
 
-.lpg-white-panel-wide-text {
+.lpg-image-panel-half-text,
+.lpg-white-panel-half-text {
   width: 470px;
   margin: 0 auto;
 }
 
+.lpg-image-panel-full-text {
+  width: 740px;
+  margin: 0 auto;
+}
+
 .lpg-wideview .lpg-image-panel,
-.lpg-wideview .lpg-white-panel-wide {
+.lpg-wideview .lpg-white-panel-half {
   width: 50%;
   float: left;
 }
@@ -583,7 +589,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   display: table-cell;
 }
 
-.lpg-trans-panel-interior-wide {
+.lpg-trans-panel-interior-half {
   width: 50%;
   display: table-cell;
   vertical-align: middle;
@@ -636,6 +642,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin-left: 100px;
 }
 
+.lpg-image-panel-full,
 .lpg-image-panel {
   text-align: center;
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
@@ -1330,6 +1337,7 @@ table td {
     padding: 200px 40px 200px 40px;
   }
 
+  .lpg-image-panel-full,
   .lpg-image-panel {
     font-size: 1.2em;
     padding: 200px 40px 200px 40px;
@@ -1434,6 +1442,7 @@ table td {
     padding: 250px 40px 250px 40px;
   }
 
+  .lpg-image-panel-full,
   .lpg-image-panel {
     padding: 250px 220px 250px 220px;
     font-size: 1.4em;
@@ -1471,6 +1480,7 @@ table td {
 }
 
 @media (min-width: 1300px) {
+  .lpg-image-panel-full,
   .lpg-image-panel {
     padding: 250px 320px 250px 320px;
   }
