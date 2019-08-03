@@ -86,7 +86,6 @@
 }
 
 .lpg-widefooter-td-left {
-  padding-left: 40px;
   width: 65%;
 }
 
@@ -99,6 +98,10 @@
 }
 
 @media (min-width: 1024px) {
+  .lpg-footer-table-wrapper {
+    float: right;
+  }
+
   #site-navigation {
     display: none;
   }
@@ -151,7 +154,6 @@ ul {
 .lpg-our-process {
   padding: 0px 0px 35px 0px;
   font-size: 32px;
-  letter-spacing: 3.2px;
 }
 
 .lpg-our-team-text,
@@ -411,7 +413,6 @@ div.wpcf7-acceptance-missing {
 .lpg-begin {
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: 1.2em;
-  letter-spacing: 1px;
   text-align: center;
 }
 
@@ -672,30 +673,31 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-footer-table-wrapper {
-  padding: 0px 40px 0px 40px;
+  padding: 0px;
 }
 
 .lpg-footer-td-left {
   padding: 6px;
-  width: 90px;
   text-align: center;
   vertical-align: middle;
 }
 
 .lpg-footer-td-right {
   padding: 6px 6px 12px 6px;
-  width: 240px;  
   text-align: left;
   vertical-align: middle;
 }
 
-.lpg-footer-table, 
-.lpg-footer-table a {
-  width: 330px;
+.lpg-footer-table {
+  width: auto;
   margin: 0 auto;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: 1.0em;
   line-height: 1.2em;
+  color: #fff;
+}
+
+.lpg-footer-table a {
   color: #fff;
 }
 
@@ -705,11 +707,13 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  padding: 40px 0px 60px 0px;
+  padding: 50px 0px 50px 0px;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: 1.2em;
   line-height: 1.2em;
   color: #fff;
+  position: relative;
+  width: 100%;
 }
 
 .lpg-experienced-image {
@@ -815,11 +819,6 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   color: #fff;
 }
 
-.lpg-footer-panel {
-  position: relative;
-  width: 100%;
-}
-
 .lpg-footer-img {
   width: 100%;
 }
@@ -829,6 +828,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-footer-copyright {
+  padding: 3px 0px 3px 100px;
   background: #ddd url('/wp-content/themes/apostrophe-2-child/images/lpg-footer-copybar.png');
   background-size: 100%;
   background-position: right top;
@@ -836,18 +836,9 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   width: 100%;
   display: table;
   vertical-align: middle;
-  padding: 4px;
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-weight: 400;
-  font-size: 7px;
   color: #ddd;
-}
-
-@media (min-width: 492px) {
-  .lpg-footer-copyright {
-    padding: 5px;
-    font-size: 9.5px;
-  }
 }
 
 #primary {
@@ -1138,17 +1129,14 @@ table td {
   padding-bottom: 15px;
 }
 
+.lpg-logo-img,
+.lpg-footer-logo-img {
+  width: 100px;
+}
+
 .lpg-footer-address {
   padding-bottom: 15px;
   line-height: 1.5em;
-}
-
-.lpg-footer-logo-img {
-  width: 25%;
-}
-
-.lpg-logo-img {
-  width: 36%;
 }
 
 #masthead {
@@ -1297,14 +1285,6 @@ table td {
     padding: 50px 0px 30px 0px;
   }
 
-  .lpg-footer-logo-img {
-    width: 24%;
-  }
-
-  .lpg-logo-img {
-    width: 50%;
-  }
-
   .main-navigation .menu-toggle:before {
     font-size: 1.7em;
   }
@@ -1353,13 +1333,10 @@ table td {
     padding: 80px 200px 200px 80px;
   }
 
-  .lpg-footer-panel {
-    font-size: 1.2em;
-    padding: 40px 40px 40px 40px;
-  }
-
   .lpg-team {
     background: url('/wp-content/themes/apostrophe-2-child/images/lpg-table-gavel-wide.jpg') center center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1396,12 +1373,7 @@ table td {
   }
 
   .lpg-footer-panel {
-    padding: 25px 40px 25px 40px;
-    font-size: 1.4em;
-  }
-
-  .lpg-footer-logo-img {
-    width: 15%;
+    padding: 50px 100px 50px 100px;
   }
 
   .lpg-personally {
