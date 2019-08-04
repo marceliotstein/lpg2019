@@ -1013,6 +1013,7 @@ button {
 
 .lpg-begin-button:hover,
 .lpg-contact-button:hover {
+  transition-delay: 1s;
   color: #2452a0;
 }
 
