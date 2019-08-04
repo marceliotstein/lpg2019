@@ -34,12 +34,23 @@
   text-align: left;
 }
 
+.lpg-media-item-table {
+  width: auto;
+  margin: 0 auto;
+}
+
 .lpg-media-listings {
-  padding: 0px 140px 0px 140px;
+  padding: 40px 0px 0px 0px;
+  text-align: center;
 }
 
 .lpg-media-item {
-  padding: 20px 0px 20px 0px;
+  padding: 10px 0px 0px 0px;
+  margin: 0 auto;
+}
+
+.lpg-media-item-inner {
+  text-align: left;
 }
 
 .lpg-media-link,
@@ -57,8 +68,14 @@
 }
 
 .lpg-portraits {
-  background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/lpg-team-background.jpg') center center;
-  background-size: cover;
+  background-color: #ffffff;
+}
+
+@media (min-width: 1024px) {
+  .lpg-portraits {
+    background: #2452a0 url('/wp-content/themes/apostrophe-2-child/images/lpg-team-background.jpg') center center;
+    background-size: cover;
+  }
 }
 
 .lpg-portraits hr {
@@ -492,7 +509,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #ffffff;
   text-align: center;
-  padding: 45px 40px 80px 40px;
+  padding: 40px 40px 50px 40px;
   margin: 0 auto;
 }
 
@@ -506,7 +523,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #ffffff;
   text-align: left;
-  padding: 45px 40px 80px 40px;
+  padding: 40px 40px 50px 40px;
   margin: 0 auto;
 }
 
@@ -566,7 +583,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #766a63;
   text-align: left; 
-  padding: 80px 40px 80px 40px;
+  padding: 80px 40px 60px 40px;
   margin: 0 auto;
 }
 
@@ -1258,11 +1275,10 @@ table td {
 }
 
 @media (min-width: 768px) {
-  .lpg-media-listings {
-    padding: 0px 240px 0px 240px;
+  .lpg-white-panel-interior { 
+    padding: 80px 120px 60px 120px;
   }
 
-  .lpg-white-panel-interior,
   .lpg-trans-panel-interior {
     padding: 80px 120px 80px 120px;
   }
@@ -1301,12 +1317,12 @@ table td {
 
   .lpg-teal-news-panel {
     font-size: 1.4em;
-    padding: 30px 80px 100px 80px;
+    padding: 40px 80px 50px 80px;
   }
 
   .lpg-teal-panel {
     font-size: 1.4em;
-    padding: 30px 120px 100px 120px;
+    padding: 40px 120px 50px 120px;
   }
 
   .lpg-white-panel,
@@ -1339,16 +1355,15 @@ table td {
 }
 
 @media (min-width: 1024px) {
-  .lpg-media-listings {
-    padding: 0px 340px 0px 340px;
-  }
-
   .lpg-portraits {
      padding-left: 140px;
      padding-right: 140px;
    }
 
-  .lpg-white-panel-interior,
+  .lpg-white-panel-interior {
+    padding: 80px 220px 60px 220px;
+  }
+
   .lpg-trans-panel-interior {
     padding: 80px 220px 80px 220px;
   }
@@ -1395,11 +1410,11 @@ table td {
   }
 
   .lpg-teal-news-panel {
-    padding: 80px 120px 120px 120px;
+    padding: 80px 120px 90px 120px;
   }
 
   .lpg-teal-panel {
-    padding: 80px 220px 120px 220px;
+    padding: 80px 220px 90px 220px;
   }
 
   .lpg-white-panel {
