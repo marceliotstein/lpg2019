@@ -71,12 +71,6 @@
               <div class="lpg-logo">
                 <a href="/"><img class="lpg-logo-img" alt="LPG Logo" src="/wp-content/themes/apostrophe-2-child/images/lpg-logo-trim.png" /></a>
               </div>
-              <div id="site-navigation-wide">
-                <span class="lpg-topmenu-item lpg-topmenu-contact"><a href="#contact-anchor">CONTACT</a></span>
-                <span class="lpg-topmenu-item"><a href="/in-the-news">IN THE NEWS</a></span>
-                <span class="lpg-topmenu-item"><a href="/our-practice">OUR PRACTICE</a></span>
-                <span class="lpg-topmenu-item"><a href="/our-process">OUR PROCESS</a></span>
-              </div>
 	      <nav id="site-navigation" class="main-navigation" role="navigation">
 		<a class="menu-toggle"><?php esc_html_e( '', 'apostrophe-2' ); ?></a>
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'apostrophe-2' ); ?></a>
@@ -87,6 +81,12 @@
                 ?>
 	 	<?php //apostrophe_2_social_menu(); ?>
 	      </nav>
+              <div id="lpg-topmenu-wide">
+                <span class="lpg-topmenu-item lpg-topmenu-contact"><a href="#contact-anchor">CONTACT</a></span>
+                <span class="lpg-topmenu-item"><a href="/in-the-news">IN THE NEWS</a></span>
+                <span class="lpg-topmenu-item"><a href="/our-practice">OUR PRACTICE</a></span>
+                <span class="lpg-topmenu-item"><a href="/our-process">OUR PROCESS</a></span>
+              </div>
             </div>
             <?php if ($current_page=="PROCESS") { ?>
               <div class="lpg-processtitles">
