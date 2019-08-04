@@ -192,13 +192,13 @@ ul {
 }
 
 @keyframes lpg-text-slide-up-interior {
-  0% { padding-top: 110px; padding-bottom: 0px }
-  100% { padding-top: 80px; padding-bottom: 30px; }
+  0% { padding-top: 110px; padding-bottom: 50px }
+  100% { padding-top: 80px; padding-bottom: 80px;  }
 }
 
 @-webkit-keyframes lpg-text-slide-up-interior {
-  0% { padding-top: 110px; padding-bottom: 0px }
-  100% { padding-top: 80px; padding-bottom: 30px; }
+  0% { padding-top: 110px; padding-bottom: 50px; }
+  100% { padding-top: 80px; padding-bottom: 80px; }
 }
 
 @media (min-width: 768px) {
@@ -566,7 +566,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   line-height: 1.2em;
   color: #766a63;
   text-align: left; 
-  padding: 80px 40px 30px 40px;
+  padding: 80px 40px 80px 40px;
   margin: 0 auto;
 }
 
@@ -650,7 +650,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-size: 1em;
   letter-spacing: .09em;
   line-height: 1em;
-  padding: 120px 20px 120px 20px;
+  padding: 130px 20px 120px 20px;
 }
 
 .lpg-image-corner-panel {
@@ -735,9 +735,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-bronze {
-  background: url('/wp-content/themes/apostrophe-2-child/images/lpg-statue.jpg') center center;
+  background: url('/wp-content/themes/apostrophe-2-child/images/lpg-statue.jpg') center top;
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
 }
@@ -771,26 +770,24 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 .lpg-children {
-  background: url('/wp-content/themes/apostrophe-2-child/images/children-narrow.jpg');
+  background: url('/wp-content/themes/apostrophe-2-child/images/children-standard.jpg');
   background-size: cover;
-  background-position: left top;
+  background-position: center bottom;
   background-repeat: no-repeat;
   color: #fff;
   height: 336px;
 }
 
 .lpg-stakes {
-  background: url('/wp-content/themes/apostrophe-2-child/images/branches-standard.jpg') center center;
-  background-size: 100%;
-  background-position: center center;
+  background: url('/wp-content/themes/apostrophe-2-child/images/branches-standard.jpg') center top;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #2452a0;
 }
 
 .lpg-park {
-  background: url('/wp-content/themes/apostrophe-2-child/images/park-standard.jpg') center center;
-  background-size: 125%;
-  background-position: center center;
+  background: url('/wp-content/themes/apostrophe-2-child/images/park-standard.jpg') center bottom;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
 }
@@ -1267,7 +1264,7 @@ table td {
 
   .lpg-white-panel-interior,
   .lpg-trans-panel-interior {
-    padding: 80px 120px 30px 120px;
+    padding: 80px 120px 80px 120px;
   }
 
   .lpg-empire-panel {
@@ -1321,7 +1318,7 @@ table td {
   .lpg-image-panel-full,
   .lpg-image-panel {
     font-size: 1.2em;
-    padding: 200px 40px 200px 40px;
+    padding: 210px 40px 200px 40px;
   }
 
   .lpg-experienced-text,
@@ -1353,7 +1350,7 @@ table td {
 
   .lpg-white-panel-interior,
   .lpg-trans-panel-interior {
-    padding: 80px 220px 30px 220px;
+    padding: 80px 220px 80px 220px;
   }
 
   .lpg-contact-panel {
@@ -1417,7 +1414,7 @@ table td {
 
   .lpg-image-panel-full,
   .lpg-image-panel {
-    padding: 250px 220px 250px 220px;
+    padding: 260px 220px 250px 220px;
     font-size: 1.4em;
   }
 
@@ -1455,7 +1452,7 @@ table td {
 @media (min-width: 1300px) {
   .lpg-image-panel-full,
   .lpg-image-panel {
-    padding: 250px 320px 250px 320px;
+    padding: 260px 320px 250px 320px;
   }
 
   .lpg-personally {
