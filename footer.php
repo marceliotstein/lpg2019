@@ -15,14 +15,22 @@
   $current_path = str_replace("http://lpgdemo.marceliotstein.net/","",$current_url);
   $current_path = str_replace("http://lpgdemo.marceliotstein.net","",$current_path);
 
+  $current_page = "HOME";
+  if ($current_path=="our-process") { 
+    $current_page = "PROCESS";
+  } else if ($current_path=="our-practice") { 
+    $current_page = "PRACTICE";
+  } else if ($current_path=="in-the-news") { 
+    $current_page = "NEWS";
+  }
   // photo credit based on page
 
   $photo_credit = " Images by Unsplash.com.";
-  if ($current_path=="our-practice") { 
+  if ($current_page=="PRACTICE") { 
     $photo_credit = " Portrait photos by Michael Meyer.";
   } 
 
-  if ($current_path=="") { ?>
+  if ($current_page=="HOME") { ?>
     <div class="lpg-begin-button-box">
       <button class="lpg-begin-button">LET'S BEGIN</button>
     </div>
