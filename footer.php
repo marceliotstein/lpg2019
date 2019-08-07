@@ -15,13 +15,17 @@
   $current_path = str_replace("http://lpgdemo.marceliotstein.net/","",$current_url);
   $current_path = str_replace("http://lpgdemo.marceliotstein.net","",$current_path);
 
+  $footer_correction = "lpg-footer-lift";
   $current_page = "HOME";
   if ($current_path=="our-process") { 
     $current_page = "PROCESS";
+    $footer_correction = "";
   } else if ($current_path=="our-practice") { 
     $current_page = "PRACTICE";
+    $footer_correction = "";
   } else if ($current_path=="in-the-news") { 
     $current_page = "NEWS";
+    $footer_correction = "";
   }
   // photo credit based on page
 
@@ -45,11 +49,10 @@
         </div>
       </div>
     </div>
-<?php } else { ?>
-    <button class="lpg-buttonfix"></button>
 <?php } ?>
   </div><!-- #content -->
-  <div class="lpg-footer">
+  </div>
+  <div class="lpg-footer <?php echo $footer_correction ?>">
     <div class="lpg-footer-panel">
       <div class="lpg-wideview">
         <table class="lpg-widefooter-table">
