@@ -83,8 +83,8 @@
 	      </nav>
               <div id="lpg-topmenu-wide">
                 <span class="lpg-topmenu-item lpg-topmenu-contact"><a href="#contact-anchor">CONTACT</a></span>
-                <span class="lpg-topmenu-item"><a href="/in-the-news">IN THE NEWS</a></span>
-                <span class="lpg-topmenu-item"><a href="/our-practice">OUR PRACTICE</a></span>
+                <span class="lpg-topmenu-item"><a href="/in-the-news">NEWS</a></span>
+                <span class="lpg-topmenu-item"><a href="/our-practice">OUR FIRM</a></span>
                 <span class="lpg-topmenu-item"><a href="/our-process">OUR PROCESS</a></span>
               </div>
             </div>

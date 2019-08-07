@@ -651,7 +651,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
   font-size: 1em;
   letter-spacing: .09em;
-  line-height: 1em;
+  line-height: 1.2em;
   padding: 130px 20px 120px 20px;
 }
 
@@ -660,7 +660,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
   font-size: 1em;
   letter-spacing: .09em;
-  line-height: 1em;
+  line-height: 1.2em;
   padding: 40px 120px 120px 40px;
 }
 
@@ -668,7 +668,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-family: "hvd_fonts_-_brandongrotesque-regular", "Josefin Sans", sans-serif;
   font-size: 1em;
   letter-spacing: .09em;
-  line-height: 1em;
+  line-height: 1.2em;
   color: #fff;
   text-align: center;
   padding: 30px 20px 20px 20px;
@@ -733,7 +733,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-family: "hvd_fonts_-_brandongrotesque-black", "Josefin Sans", sans-serif;
   font-size: 22.8px;
   letter-spacing: .09em;
-  line-height: 1em;
+  line-height: 1.2em;
   padding-bottom: 30px;
 }
 
@@ -1305,7 +1305,7 @@ table td {
 
   .lpg-personally {
     font-size: 1.3em;
-    padding: 55px 0px 10px 0px;
+    padding: 48px 0px 10px 0px;
   }
 
   .lpg-adept {
@@ -1390,7 +1390,7 @@ table td {
   }
 
   .lpg-personally {
-    padding: 55px 220px 10px 220px;
+    padding: 48px 220px 10px 220px;
     background-color: #2452a0;
   }
 
